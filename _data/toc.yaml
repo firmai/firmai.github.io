@@ -1,0 +1,66 @@
+horizontalnav:
+- title: Overview
+  path: /
+  node: overview
+- title: Prediction
+  path: /get-started/
+  node: prediction
+- title: Reporting
+  path: /reporting/
+  node: reporting
+- title: Decision Making
+  path: /decision-making/
+  node: decision
+- title: 4D
+  path: /4D-Report/
+  node: experimental
+- title: Samples
+  path: /samples/
+  node: samples
+- title: Articles
+  path: /articles/
+  node: articles
+
+prediction:
+- sectiontitle: Financial Stress
+  section:
+  - sectiontitle: Bankruptcy Prediction
+    section:
+    - path: https://www.dropbox.com/s/mxabtt3cqsbzstx/Banruptcy.docx?dl=0
+      title: Write Up
+
+- sectiontitle: Income
+  section:
+  - sectiontitle: Earnings Surprise Prediction 
+    section:
+    - path: https://www.dropbox.com/s/3ofsfkzyr626vto/Earnings.docx?dl=0
+      title: Write Up
+
+- sectiontitle: Fraud
+  section:
+  - sectiontitle: Credit Card Fraud 
+    section:
+    - path: /documents/Credit-Card-Fraud-Model/
+      title: Code
+
+
+decision:
+- sectiontitle: Statistical Testing 
+  section:
+  - sectiontitle: AB Testing  
+    section:
+    - path: /get-started/part7/
+      title: Method
+
+
+reporting:
+- sectiontitle: Reporting  
+  section:
+  - sectiontitle: 4D Reporting  
+    section:
+    - path: /4d-Report/
+      title: Showcase
+
+
+      
+      

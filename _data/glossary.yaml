@@ -1,0 +1,21 @@
+predictive analytics : |
+  Predictive analytics is the practice of extracting information from existing data sets in order to determine patterns and predict future outcomes and trends. Predictive analytics does not tell you what will happen in the future.
+prescriptive analytics: |
+  Prescriptive analytics is the area of business analytics (BA) dedicated to finding the best course of action for a given situation.
+supervised machine learning : |
+  Supervised learning is the machine learning task of inferring a function from labeled training data. The training data consist of a set of training examples. In supervised learning, each example is a pair consisting of an input object (typically a vector) and a desired output value (also called the supervisory signal).
+unsupervised machine learning: |
+  Unsupervised learning is a type of machine learning algorithm used to draw inferences from datasets consisting of input data without labeled responses. The most common unsupervised learning method is cluster analysis, which is used for exploratory data analysis to find hidden patterns or grouping in data.
+robotic process automation: |
+   Robotic process automation (RPA) refers to software that can be easily programmed to do basic tasks across applications just as human workers do.
+business process management: |
+  Business process management (BPM) is a systematic approach to making an organization's workflow more effective, more efficient and more capable of adapting to an ever-changing environment. A business process is an activity or set of activities that will accomplish a specific organizational goal.
+natural language Processing : |
+  Natural-language processing (NLP) is a field of computer science, artificial intelligence concerned with the interactions between computers and human (natural) languages, and, in particular, concerned with programming computers to fruitfully process large natural language data.
+recommender systems: |
+  A recommender system or a recommendation system (sometimes replacing "system" with a synonym such as platform or engine) is a subclass of information filtering system that seeks to predict the "rating" or "preference" that a user would give to an item.
+regression models: |
+  A machine learning task where the output variable takes continuous values.
+classification models: |
+  A machine learning task where the output variable takes class labels.
+

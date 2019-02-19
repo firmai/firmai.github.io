@@ -1,0 +1,59 @@
+<div class="header">
+    <div class="fan"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="nav-primary">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <img class="logo" src="../images/transparent_logo.png" alt="Docker Docs" title="Docker Docs">
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="primary nav navbar-nav">
+                            <li><a href="../about/">What is FirmAI?</a></li>
+                            <li><a href="../get-started/">Machine Learning</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore <span class="caret"></span></a>
+                                <ul class="dropdown-menu nav-main">
+                                    <li><a href="../get-started/">Prediction</a></li>
+                                    <li><a href="../manuals/">Reporting</a></li>
+                                    <li><a href="../reference/">Decision Making</a></li>
+                                    <li><a href="../samples/">Samples</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../glossary/">Glossary</a></li>
+                            <li><a href="../data/">Data</a></li>
+                            <li><a href="../tableau">Tableau</a></li>
+                            <li><a href="../contact/">Contact</a></li>
+                        </ul>
+                        </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- hero banner text -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="hero-text">
+                <div class="hero-text-centered">
+                    <h1>{{ site.name }}</h1>
+                    <p>FirmAI is an open source project for business automation and analytics. All project driven implementations 
+                    have been anonimised where appropriate and published here for public use.</p>
+                    <ul class="buttons">
+                        <li><a class="button transparent-btn" href="../about/" target="_blank">About Us</a></li>
+                        <li> <a class="button secondary-btn" href="/get-started/" target="_blank">Get Started</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- nav-secondary -->
+    <!-- data-offset-top should calculated as follows: (height of <header> - header of <nav>) -->
+    <nav class="nav-secondary-tabs" data-spy="affix" data-offset-top="385">
+        <div class="container-fluid">
+            <div class="navbar-collapse" aria-expanded="false" style="height: 1px;">
+                {% include navigation.html %}
+            </div>
+        </div>
+    </nav>
+</div>

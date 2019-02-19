@@ -1,0 +1,187 @@
+/*
+*
+* layout
+*
+*/
+
+/*
+*
+* branding *********************************************************************
+*
+*/
+
+.logo {
+    margin: 12px 10px 0 10px;
+    width: 160px;
+}
+
+/*
+*
+* Header ***********************************************************************
+*
+*/
+
+.header {
+    animation: gradientswitch 80s infinite;
+    -webkit-animation: gradientswitch 80s infinite;
+    height: $global-header-height;
+    position: relative;
+    z-index: 1;
+    transition: all 0.1s ease;
+}
+
+@keyframes gradientswitch {
+    0% {
+        background: #0087C9;
+    }
+    16% {
+        background: #EF4A53;
+    }
+    32% {
+        background: #FFB463;
+    }
+    49% {
+        background: #33D5D4;
+    }
+    65% {
+        background: #254356;
+    }
+    81% {
+        background: #5B4097
+    }
+    100% {
+        background: #0087C9
+    }
+}
+
+@-webkit-keyframes gradientswitch {
+    0% {
+        background: #0087C9;
+    }
+    16% {
+        background: #EF4A53;
+    }
+    32% {
+        background: #FFB463;
+    }
+    49% {
+        background: #33D5D4;
+    }
+    65% {
+        background: #254356;
+    }
+    81% {
+        background: #5B4097
+    }
+    100% {
+        background: #0087C9
+    }
+}
+
+.fan {
+    background: linear-gradient(-120deg, rgba(245, 33, 33, 0) 87%, rgba(255, 255, 255, 0.08) 15%), linear-gradient(-110deg, rgba(27, 0, 255, 0) 85%, rgba(255, 255, 255, 0.08) 15%), linear-gradient(-103deg, rgba(255, 33, 33, 0) 84%, rgba(255, 255, 255, 0.08) 15%), radial-gradient(circle, rgba(0, 135, 201, 0) 0%, rgba(0, 135, 201, 0) 100%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.columns,
+.col-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-nav {
+    order: -1;
+}
+
+.col-body {
+    flex-direction: row;
+    flex: 1;
+    min-height: 555px;
+}
+
+.col-content {
+    flex: 1;
+    transition: all 0.5s ease;
+}
+
+.col-nav,
+.col-toc {
+    flex: 0 0 0;
+}
+
+.col-toc-hidden {
+    display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+    .col-nav,
+    .col-toc {
+        flex: 0 0 19em;
+    }
+}
+
+.content {
+    padding: 50px 50px 20px 50px;
+    max-width: 1024px;
+    min-width: 300px;
+    min-height: 500px;
+}
+
+.main-content {
+    padding: 0 35px 25px 30px;
+}
+
+section.section {
+    margin: 0 auto;
+}
+
+.content ul {
+    margin-top: 10px;
+}
+
+/*
+*
+* sidebar ***********************************************************************
+*
+*/
+
+.wrapper.right-open #sidebar-wrapper {
+    width: 270px;                                                                                                                                                                            
+}
+
+.wrapper.right-open .page-content {
+    padding-right: 190px;
+    background-color: purple;
+}
+
+/*
+* Sidebar
+*/
+
+.col-nav,
+.col-toc {
+    min-height: 100vh;
+}
+
+.col-nav,
+.col-toc,
+.sidebar {
+    background-color: $bg-sidebar;
+}
+
+.col-toc {
+    margin-left: auto;
+}
+
+.sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 55px;
+    overflow: auto;
+    max-height: calc(100vh - 55px);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
