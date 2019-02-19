@@ -222,3 +222,5 @@ defaults:
 sass:
   sass_dir:          _scss
   style:            :compressed
+
+theme: jekyll-theme-cayman
