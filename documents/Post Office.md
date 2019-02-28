@@ -1,5 +1,7 @@
-"""
 
+### Post office problem in Google CP Solver.
+
+```
   Post office problem in Google CP Solver.
 
   Problem statement:
@@ -30,7 +32,7 @@
   to hire to meet its demand.
   '''
 
-"""
+```
 
 ```python
 from __future__ import print_function
