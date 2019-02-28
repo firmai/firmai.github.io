@@ -4525,6 +4525,7 @@ params = {
           'num_class': 1,
           'metric': 'auc'}
 ```
+```python
 ## Someones
 
 params["max_depth"]=5
@@ -4538,6 +4539,7 @@ params["colsample_bytree"]=1
 # params["reg_lambda"] = 2
 # params["feature_fraction and"] = 2
 # params["seed"] = 5
+```
 
 ```python
 #### Scripus/First Olivier
@@ -4931,13 +4933,6 @@ shap_new = shap_fram.sum().sort_values().to_frame()
 
 shap_new.columns = ["SHAP"]
 ```
-low = shap_new[shap_new["SHAP"]<shap_new.quantile(.20).values[0]].reset_index()
-
-playdata[low[low["index"].str.contains("AMT")]["index"].values].head().columns
-
-high = shap_new[shap_new["SHAP"]>shap_new.quantile(.80).values[0]].reset_index()
-
-playdata[high[high["index"].str.contains("AMT")]["index"].values].head().columns
 
 ```python
 list(shap_new.head(20).index.values)
@@ -5558,10 +5553,5 @@ feature_importances.groupby("feature").mean().sort_values("importance", ascendin
 </div>
 
 
-print(len(feat_imp))
 
-new = feat_imp[feat_imp["importance"]<2]
-
-new.to_csv("imp_feats2.csv")
-print(len(feat_imp[feat_imp["importance"]<2]))
 
