@@ -469,7 +469,7 @@ According to the probabilities, the control group (the group with the old page) 
 
 * Null-hypothesis
 
-$$H_0:  p_{new} - p_{old} \leq 0$$
+$H_0:  p_{new} - p_{old} \leq 0$
 
 *i.e.* The null hypothesis is that the difference between the population conversion rate of users given the new page and the old page will be equal to zero (the same) or lower than zero (the old page has a higher population conversion rate).
 
