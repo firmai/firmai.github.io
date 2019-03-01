@@ -477,6 +477,10 @@ $$H_0:  p_{new} - p_{old} \leq 0$$
 
 $H_1: p_{new} - p_{old} > 0$
 
+$$
+H_1: p_{new} - p_{old} > 0
+$$
+
 \(H_1: p_{new} - p_{old} > 0\)
  
  \[H_1: p_{new} - p_{old} > 0\]
