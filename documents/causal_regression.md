@@ -232,11 +232,11 @@ To be precise, $X$ and $Y$ are [random variables](http://mathworld.wolfram.com/R
 
 In the previous example, when we make no intervention on the system, we have an observational distribution of $Y$, conditioned on the fact we observe $X$:
 
-$P(Y|X)$
+$$P(Y|X)$$
 
 When we force people to wear cool hats, we are making an intervention. The distribution of $Y$ is then given by the _interventional_ distribution 
 
-$P(Y|\hbox{do}(X))$
+$$P(Y|\hbox{do}(X))$$
 
 In general these two are not the same.
 
@@ -256,7 +256,7 @@ This shifts the problem from one about how distributions change under the interv
 
 Often we do not care about the full interventional distribution, $P(Y|\hbox{do}(X))$, and it is enough to have an estimate of the difference in means between the two groups. This is a quantity known as the [Average Treatment Effect](https://en.wikipedia.org/wiki/Average_treatment_effect):
 
-$\Delta = E[Y_{1} - Y_{0}]$
+$$\Delta = E[Y_{1} - Y_{0}]$$
 
 When we run and A/B test and compare the means of each group, this is directly the quantity we are measuring 
 
@@ -272,8 +272,8 @@ $E[Y_{i}|X=i] \neq E[Y_{i}]$
 
 Two related quantities are 
 
- - $ATT = E[Y_{1} - Y_{0}|X=1]$, the "Average Treatment effect of the Treated"
- - $ATC = E[Y_{1} - Y_{0}|X=0]$, the "Average Treatment effect of the Control"
+$ATT = E[Y_{1} - Y_{0}|X=1]$, the "Average Treatment effect of the Treated"
+$ATC = E[Y_{1} - Y_{0}|X=0]$, the "Average Treatment effect of the Control"
 
 One way to interpret ATC is as a measure of the effect of treating only samples which wouldn't naturally be treated, and vice versa for ATT. Depending on your use case, they may be more natural measures of what you care about. The following techniques will allow us to estimate them all. 
 
@@ -282,25 +282,25 @@ $\def\ci{\perp\!\!\!\perp}$
 
 When we A/B test, we randomize the assignment of $X$. This has the effect of allowing us to choose which variable of $Y_{1}$ or $Y_{0}$ is revealed to us. This makes the outcome independent of the value of $X$. We write this as
 
-$Y_{1}, Y_{0} \ci X$
+$$Y_{1}, Y_{0} \ci X$$
 
 Which means that the distribution of $X, Y_{0}, Y_{1}$ factorizes as
 
-$P(X, Y_{0}, Y_{1}) = P(X)P(Y_{0}, Y_{1})$
+$$P(X, Y_{0}, Y_{1}) = P(X)P(Y_{0}, Y_{1})$$
 
 If this independence holds then
 
-$E[Y_{1}|X=1] = E[Y_{1}]$
+$$E[Y_{1}|X=1] = E[Y_{1}]$$
 
 If we want to estimate the ATE using observational data, we need to use other information we have about the samples - specifically we need to **assume** that we have enough additional information to completely explain the choice of treatment each subject.
 
 If we call the additional information the random variable $Z$, we can write this assumption as
 
-$Y_{1}, Y_{0} \ci X \, | \, Z$
+$$Y_{1}, Y_{0} \ci X \, | \, Z$$
 
 or
 
-$P(X, Y_{0}, Y_{1}| Z) = P(X|Z)P(Y_{0}, Y_{1}|Z)$
+$$P(X, Y_{0}, Y_{1}| Z) = P(X|Z)P(Y_{0}, Y_{1}|Z)$$
 
 This means that the observed treatment a sample receives, $X$, is completely explained by $Z$. This is sometimes called the ["ignorability" assumption](https://en.wikipedia.org/wiki/Ignorability).
 
@@ -322,7 +322,7 @@ print(estimate_uplift(observed_data_0_with_confounders.loc[lambda df: df.z == 1]
 
 Unfortuntly, because we never observe $Y_{0}$ and $Y_{1}$ for the same sample, we cannot test the assumption that 
 
-$Y_{1}, Y_{0} \ci X \, | \, Z$
+$$Y_{1}, Y_{0} \ci X \, | \, Z$$
 
 It is something we have to use our knownledge of the system we are investigating to evaluate.
 
@@ -336,12 +336,12 @@ In human speak you can investigate the counterfactual with an additional variabl
 
 From the above, it should be clear that if know $Y_{0}$ and $Y_{1}$, we can estimate the ATE. So why not just try and model them directly? Specifically we can build estimators: 
  
- - $\hat{Y}_{0}(Z) = E[Y|Z, X=0]$
- - $\hat{Y}_{1}(Z) = E[Y|Z, X=1]$. 
+ - $$\hat{Y}_{0}(Z) = E[Y|Z, X=0]$$
+ - $$\hat{Y}_{1}(Z) = E[Y|Z, X=1]$$. 
  
 If we can model these two quantities, we can estimate the ATE as:
 
-$\Delta = \frac{1}{N}\sum_{i}(\hat{Y}_{1}(z_{i}) - \hat{Y}_{0}(z_{i}))$
+$$\Delta = \frac{1}{N}\sum_{i}(\hat{Y}_{1}(z_{i}) - \hat{Y}_{0}(z_{i}))$$
 
 The success of this approach depends on how well we can model the potential outcomes. To see it in action, let's use the following data generating process:
 
@@ -1328,7 +1328,7 @@ print(cm.summary_stats)
 
 Where the Normalized difference is defined as
 
-$\frac{\bar{X}_{T} - \bar{X}_{T}}{ (\sigma^{2}_{T} + \sigma^{2}_{C})/2 } $
+$$\frac{\bar{X}_{T} - \bar{X}_{T}}{ (\sigma^{2}_{T} + \sigma^{2}_{C})/2 } $$
 
 While it isn't a strict statistical test, it provides some indication how much overlap there is between each covariate. Values greater than one suggest there isn't much overlap.
 
@@ -1336,7 +1336,7 @@ While it isn't a strict statistical test, it provides some indication how much o
 
 The Propensity score is a estimate of how likely it is for a subject to have ended up with the treatment, given the covariates:
 
-$\hat{p}(Z) = P(X|Z)$
+$$\hat{p}(Z) = P(X|Z)$$
 
 We can estimate this however we like, but once we have it there are a number of things we can do with it.
 
@@ -1347,15 +1347,15 @@ Remember that the problem of measuring causal inference is that we want to know 
 
 The probability of a potential outcome can be expanded to give
 
-$P(Y_{i}) = P(Y_{i}| X = i)P(X = i)$
+$$(Y_{i}) = P(Y_{i}| X = i)P(X = i)$$
 
 This suggests that we can estimate the true 
 
-$E[Y_{i}] = E[\frac{Y_{i}}{P(X=i|Z)}P(X=i|Z)] = E[\frac{Y_{i}}{P(X=i|Z)}|X=i, Z]$
+$$E[Y_{i}] = E[\frac{Y_{i}}{P(X=i|Z)}P(X=i|Z)] = E[\frac{Y_{i}}{P(X=i|Z)}|X=i, Z]$$
 
 So if we weight each point by it's inverse propensity, we can recover the potential outcomes. The result is the [inverse propensity score weight estimator](https://en.wikipedia.org/wiki/Inverse_probability_weighting):
 
-$\Delta_{IPS} = \frac{1}{N}\left(\sum_{i \in 1} \frac{y_{i}}{\hat{p}(z_{i})} - \sum_{i \in 0} \frac{y_{i}}{1 - \hat{p}(z_{i})}\right)$
+$$\Delta_{IPS} = \frac{1}{N}\left(\sum_{i \in 1} \frac{y_{i}}{\hat{p}(z_{i})} - \sum_{i \in 0} \frac{y_{i}}{1 - \hat{p}(z_{i})}\right)$$
 
 Let's see how it does one of our previous datasets:
 
@@ -1521,11 +1521,11 @@ cm.estimates
 
 In the previous sections, we assumed that the outcomes and the treatment were independent given our covariates:
 
-$Y_{1}, Y_{0} \ci X \, | \,Z$
+$$Y_{1}, Y_{0} \ci X \, | \,Z$$
 
 We can also assume something slightly stronger: that the outcomes are independent of the treatment, conditioned on the probability of the propensity:
 
-$Y_{1}, Y_{0} \ci X \, | \,\hat{p}(Z)$
+$$Y_{1}, Y_{0} \ci X \, | \,\hat{p}(Z)$$
 
 With this assumption, we potentially reduce the dimensionality of the confounding variables. This allows us to perform several techniques which may not work in higher dimensional settings. 
 
@@ -1702,7 +1702,7 @@ Ultimately, to choose your technique you need to make some assumptions about how
 
 To highlight that all these methods can fail, I have one more example. Unlike the previous examples, there is more than one covariate. Like all the previous datagenerators, this one also obeys the assumption 
 
-$Y_{1}, Y_{0} \ci X \, | \,Z$
+$$Y_{1}, Y_{0} \ci X \, | \,Z$$
 
 By design. 
 
@@ -1815,7 +1815,7 @@ This should be a warning about the limitations of this kind of technique. It mig
 
 Hopefully by this point, you will have realised the importance of the ignorability assumption
 
-$Y_{1}, Y_{0} \ci X \, | \,Z$
+$$Y_{1}, Y_{0} \ci X \, | \,Z$$
 
 What I haven't talked about is how we choose $Z$ so that this is true. Ultimately this needs to come from domain knowledge about the system being studied. There are a set of powerful tools called [Causal Graphical Models](https://en.wikipedia.org/wiki/Causal_graph) which allow you to encode knowledge about the system being studied is a graphical model of the system and to reason about conditional independence assumptions like the one above.
 
