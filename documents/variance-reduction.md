@@ -25,7 +25,7 @@ In this post I'm going to look at one of these techniques: [control variates](ht
 
 The goal of controlled experiments is often to estimate the Average Treatment Effect (ATE) of an intervention on some property, $y$, of a population. This is defined as
 
-$\Delta = \hbox{E}[y|I] - \hbox{E}[y|\bar{I}]$
+$$\Delta = \hbox{E}[y|I] - \hbox{E}[y|\bar{I}]$$
 
 Where $I$ is an indicator for whether or not an individual received the intervention, and the expectation is averaged over the population.
 
@@ -33,7 +33,7 @@ $\Delta$ is the thing we fundamentally what to know - the effect of our treatmen
 
 Our estimate of the **ATE** is then:
 
-$\hat{\Delta} = \bar{y}_{B} - \bar{y}_{A}$
+$$\hat{\Delta} = \bar{y}_{B} - \bar{y}_{A}$$
 
 Where $\bar{y}_{i}$ is the sample mean for group $i$. Splitting the samples into groups randomly ensures that no [confounding variables](https://en.wikipedia.org/wiki/Confounding) influence our measurement.
 
@@ -47,15 +47,15 @@ To estimate the confidence intervals for our estimator, we use the [central limi
 
 Under this approximation the standard deviation of $\hat{\Delta}$ is 
 
-$\sqrt{\hbox{Var}(\bar{y}_{B}) + \hbox{Var}(\bar{y}_{A})}$
+$$\sqrt{\hbox{Var}(\bar{y}_{B}) + \hbox{Var}(\bar{y}_{A})}$$
 
 Which we can estimate from our data using
 
-$s_{\Delta} = z \sqrt{s_{B}^{2}/N_{B} + s_{A}^{2}/N_{A}}$
+$$s_{\Delta} = z \sqrt{s_{B}^{2}/N_{B} + s_{A}^{2}/N_{A}}$$
 
 Where $s_{i}$ is the sample standard deviation of group $i$. And the confidence intervals are just
 
-$se_{\Delta} = z(\alpha) \sqrt{\hbox{Var}(\bar{y}_{B}) + \hbox{Var}(\bar{y}_{A})}$
+$$se_{\Delta} = z(\alpha) \sqrt{\hbox{Var}(\bar{y}_{B}) + \hbox{Var}(\bar{y}_{A})}$$
 
 Where $z(\alpha) = \Phi^{-1}(1 - \frac{\alpha}{2})$ with $\Phi^{-1}$ as the inverse normal CDF. 
 
@@ -71,7 +71,7 @@ If we are to run tests, it is in our best interest to make them as powerful as p
 
 For the rest of these notes, I'm going to call an effect size "detectable" for a given experiment setup if it has power of at least 50%:
 
-$\Delta_{detectable} \ge se_{\Delta}$
+$$\Delta_{detectable} \ge se_{\Delta}$$
 
 I have made this term up to simplify these notes. It is not common statistical jargon, and in reality you should always aim for tests more powerful then this. "Detectable effect size" is a function of only the variance of the underlying population we want to measure, and the sample sizes of each group.
 
@@ -207,7 +207,7 @@ Now we have a method to generate data, we can apply an uplift to one group, and 
 
 For 1000 samples in each group, we expect the confidence intervals in our effect size estimate to be
 
-$z \sqrt{2 \frac{Var(y)}{N}}$
+$$z \sqrt{2 \frac{Var(y)}{N}}$$
 
 Where $z$ is a constant we set depending on the width of our confidence intervals. For 95% confidence intervals this is about 1.96.
 
@@ -329,29 +329,29 @@ I came across the idea of using control variates in the paper [Improving the Sen
 
 Mathematically, if we have a variable $x$ that we want to use as a control variate, and our variable of interest $y$, then we can define a new variable $\tilde{y}$ so that
 
-$\tilde{y} = y - \theta x$
+$$\tilde{y} = y - \theta x$$
 
 Where $\theta$ is a constant.
 
 The expectation of this new variable is
 
-$E[\tilde{y}] = E[y] - \theta E[x]$
+$$E[\tilde{y}] = E[y] - \theta E[x]$$
 
 If we choose $x$ such that it's expectation is 0 (for example, by subtracting the mean) then the expectation of $\tilde{y}$ is just the expectation of $y$. The variance of $\tilde{y}$ is given by:
 
-$\hbox{Var}(\tilde{y}) = \hbox{Var}(y) + \alpha^{2}\hbox{Var}(x) - 2 \theta \hbox{Cov}(y,x)$
+$$\hbox{Var}(\tilde{y}) = \hbox{Var}(y) + \alpha^{2}\hbox{Var}(x) - 2 \theta \hbox{Cov}(y,x)$$
 
 Minimising the variance with respect to $\theta$, we get
 
-$\theta = \frac{\hbox{Cov}(y,x)}{\hbox{Var}(x)}$
+$$\theta = \frac{\hbox{Cov}(y,x)}{\hbox{Var}(x)}$$
 
 Plugging this back into our original expression, we get
 
-$\hbox{Var}(\tilde{y}) = \hbox{Var}(y)\left(1 - \rho^{2}\right)$
+$$\hbox{Var}(\tilde{y}) = \hbox{Var}(y)\left(1 - \rho^{2}\right)$$
 
 Where 
 
-$\rho^{2} = \frac{\hbox{Cov}(y,x)^{2}}{\hbox{Var}(y)\hbox{Var}(x)}$
+$$\rho^{2} = \frac{\hbox{Cov}(y,x)^{2}}{\hbox{Var}(y)\hbox{Var}(x)}$$
 
 which is just the correlation between our metric and the control variate. This means that if there's some correlation between the our control variate and our metric, we can reduce the variance.
 
@@ -359,11 +359,11 @@ which is just the correlation between our metric and the control variate. This m
 
 This all looks good, but it relies on us knowing the mean of $x$. In A/B tests, we no longer need to know this. If $x$ is not affected by the intervention, then the mean's of $x$ for each group will be identical, and will canceled out. We can define a new estimator:
 
-$\tilde{\Delta} = \frac{1}{N_{B}}\sum_{i} (y_{B,i} - \theta x_{B,i}) -  \frac{1}{N_{A}}\sum_{i} (y_{A,i} - \theta x_{A,i})$
+$$\tilde{\Delta} = \frac{1}{N_{B}}\sum_{i} (y_{B,i} - \theta x_{B,i}) -  \frac{1}{N_{A}}\sum_{i} (y_{A,i} - \theta x_{A,i})$$
 
-$ = (\hat{y}_{B} - \hat{y}_{A}) - \theta (\bar{x}_{B} - \bar{x}_{A})$
+$$ = (\hat{y}_{B} - \hat{y}_{A}) - \theta (\bar{x}_{B} - \bar{x}_{A})$$
 
-$ = \hat{\Delta}$
+$$ = \hat{\Delta}$$
 
 Which has the same expectation value as our original estimator, but with variance reduced by a factor of $\left(1 - \rho^{2}\right)$.
 
@@ -789,7 +789,7 @@ z * np.sqrt(2 / 1000)
 
 Control Variates is not the only methodology to improve the efficiency of randomized control trials. Another Common approach is know as [covariate adjustment](http://thestatsgeek.com/2014/02/01/adjusting-for-baseline-covariates-in-randomized-controlled-trials/). In it's simplest form, it involves fitting a linear model to the experiment data:
 
-$y = \alpha + \beta x + \beta_{z} z$ 
+$$y = \alpha + \beta x + \beta_{z} z$ $
 
 Where $z$ is an indicator variable, with $z = 0$ when the sample is in the base group and $z=1$ when the sample is in the variant group and $\alpha$, $\beta$ and $\beta_{z}$ are the parameters to be fitted.
 
