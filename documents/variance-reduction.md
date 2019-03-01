@@ -789,7 +789,7 @@ z * np.sqrt(2 / 1000)
 
 Control Variates is not the only methodology to improve the efficiency of randomized control trials. Another Common approach is know as [covariate adjustment](http://thestatsgeek.com/2014/02/01/adjusting-for-baseline-covariates-in-randomized-controlled-trials/). In it's simplest form, it involves fitting a linear model to the experiment data:
 
-$$y = \alpha + \beta x + \beta_{z} z$ $
+$$y = \alpha + \beta x + \beta_{z} z$$
 
 Where $z$ is an indicator variable, with $z = 0$ when the sample is in the base group and $z=1$ when the sample is in the variant group and $\alpha$, $\beta$ and $\beta_{z}$ are the parameters to be fitted.
 
