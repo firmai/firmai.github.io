@@ -268,12 +268,12 @@ $\Delta_{bad} = E[Y|X=1] - E[Y|X=0] \\
 
 This is not generally equal to the true ATE because:
 
-$E[Y_{i}|X=i] \neq E[Y_{i}]$
+$$E[Y_{i}|X=i] \neq E[Y_{i}]$$
 
 Two related quantities are 
 
-$ATT = E[Y_{1} - Y_{0}|X=1]$, the "Average Treatment effect of the Treated"
-$ATC = E[Y_{1} - Y_{0}|X=0]$, the "Average Treatment effect of the Control"
+$$ATT = E[Y_{1} - Y_{0}|X=1]$$, the "Average Treatment effect of the Treated"
+$$ATC = E[Y_{1} - Y_{0}|X=0]$$, the "Average Treatment effect of the Control"
 
 One way to interpret ATC is as a measure of the effect of treating only samples which wouldn't naturally be treated, and vice versa for ATT. Depending on your use case, they may be more natural measures of what you care about. The following techniques will allow us to estimate them all. 
 
@@ -337,7 +337,7 @@ In human speak you can investigate the counterfactual with an additional variabl
 From the above, it should be clear that if know $Y_{0}$ and $Y_{1}$, we can estimate the ATE. So why not just try and model them directly? Specifically we can build estimators: 
  
  - $$\hat{Y}_{0}(Z) = E[Y|Z, X=0]$$
- - $$\hat{Y}_{1}(Z) = E[Y|Z, X=1]$$. 
+ - $$\hat{Y}_{1}(Z) = E[Y|Z, X=1]$$
  
 If we can model these two quantities, we can estimate the ATE as:
 
