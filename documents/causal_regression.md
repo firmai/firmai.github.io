@@ -94,13 +94,6 @@ observed_data_0.head()
 
 The first question the team lead asks is: are people wearing cool hats more likely to be productive that those who don't? This means estimating the quantity
 
-\begin{equation}P(Y=1|X=1) - (Y=1|X=0)\end{equation}
-
-\\[P(Y=1|X=1) - (Y=1|X=0)\\]
-
-\begin{foo}P(Y=1|X=1) - (Y=1|X=0)\end{foo}
-
-$$P(Y=1|X=1) - (Y=1|X=0)$$
 
 ```math
 P(Y=1|X=1) - (Y=1|X=0)
