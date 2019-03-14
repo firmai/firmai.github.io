@@ -3,7 +3,7 @@ title: Interactive Report
 notoc: true
 ---
 
-For a live version of the report see [**4D Sample**](http://4d.firmai.org). 
+For a live version of the report see [**4D Sample**](http://report.firmai.org). 
 
 This report updates on a monthly basis to allow the reader to stay up to date with the current issues facing the organisation. The report is fully automated which may lead to potential errors if left unreported. Its automated nature allows the user to study multiple companies and locations without strenuous user input. This is the first interactive report of its kind. It is in PDF style making it easily digestible and also easy to print on select browsers. 
 
