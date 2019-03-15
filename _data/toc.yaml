@@ -20,6 +20,9 @@ horizontalnav:
 - title: Articles
   path: /articles/
   node: articles
+- title: Github
+  path: https://github.com/firmai/business-machine-learning
+  node: github
 
 prediction:
 - sectiontitle: Financial Stress
