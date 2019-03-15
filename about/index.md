@@ -4,9 +4,22 @@ keywords: about, firmai, AI, definition, company
 title: About Us
 ---
 
-##### Open Source
+FirmAI is a centralised repository of current and experimental business intelligence tools (BITs). Any tool that advances business automation is simply called a BIT; this includes among others, machine learning, econometric, statistical and decision optimising tools.
 
-FirmAI is an open source data analytics and business automation company. It is our mission to open up access to the business tools necessary for state of the art automation. FirmAI's goal is to democratise firm automation by 2030. FirmAI provides free consulting services to charities on a case to case basis. FirmAI currently operates in the hospitality and senior age care & retirement sector.
+The expectation is that most BITs are already widely known and used by companies with monopolistic characteristics. FirmAI seeks to level this asymmetry by helping small to medium sized companies automate their business activities. 
+
+The purpose of FirmAI is to advance business competition and innovation through two tenants. First the democratisation of automation, and second regulatory and policy design recommendation for tax, data sharing and small business support. 
+
+FirmAI supports business automation in the following seven ways:
+
+1. Catalogue business intelligence tools. 
+2. Release notebook and application examples of the most important innovations.
+3. Highlight important research articles related to firm automation.
+4. Help companies identify automatable activities with check-lists, case studies and speculative company fiction.
+5. Release public and anonymised datasets where appropriate. 
+6. Comment on the dangers of automation with proposed regulatory and policy steps. 
+7. The release of a monthly newsletter.
+
 
 ##### Data
 
@@ -14,4 +27,4 @@ At FirmAI we are well aware that data availability is the most pressing source-c
 
 ##### Technology
 
-We pride ourselves in using a wide range of technologies to solve and automate the most complex and pressing business problems. In prediction tasks we use the best libraries of the day to facilitate accurate predictions. This includes libraries such as Google's Tensorflow and PyTorch for deeplearning. For ensemble models we consult Microsofts' LightGBM and other open source tools. This is combined with research level analysis of features in datasets, which provide companies with decision making clarity. Our technology stack is very modern and ever-evolving. For decision making we make use of an adapted version of IBM and Googles' decision optimisation algorithms and various other strategic programs such as those developed by the RAND Corporation.
+We pride ourselves in using a wide range of technologies to solve and automate the most complex and pressing business problems. I
