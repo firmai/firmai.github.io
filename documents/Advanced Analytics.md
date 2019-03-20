@@ -322,7 +322,7 @@ This is an random sample of 5 of 2756 new predictions:
 
 The predicted data has the same semantic as the base data, with even more clear frontiers:
 
-- for savings, there is a clear frontier at \\$50K revenue.
+- for savings, there is a clear frontier at \$\50K revenue.
 - for pension, there is a clear frontier at 55 years old customers.
 
  
