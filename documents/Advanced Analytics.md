@@ -378,7 +378,7 @@ Here are the results of the 2 algorithms:
  
 
 - As you can see, with decision optimization, we can safely do this marketing campaign to contact 1218 customers out of the 2756 customers.
-- This will lead to $72.6K revenue, significantly greater than the $50.8K revenue given by a greedy algorithm.
+- This will lead to \$72.6K revenue, significantly greater than the $50.8K revenue given by a greedy algorithm.
 - With a greedy algorithm, we will:
   - be unable to focus on the correct customers (it will select fewer of them),
   - spend less of the available budget for a smaller revenue.
@@ -389,7 +389,7 @@ Here are the results of the 2 algorithms:
 
 
 - We need a minimum of \$16K to be able to start a valid campaign and we expect it will generate \$47.5K.
-- Due to the business constraints, we will be able to address 1680 customers maximum using a budget of \$35.5K. Any money above that amount won’t be spent. The expected revenue is therefore $87K.
+- Due to the business constraints, we will be able to address 1680 customers maximum using a budget of \$35.5K. Any money above that amount won’t be spent. The expected revenue is therefore \$87K.
 
 
 | Scenario | Budget | Revenue | Number of clients | Mortgage offers | Pension offers | Savings offers |
