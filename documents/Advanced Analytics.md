@@ -8,7 +8,7 @@ notoc: false
 
 Advanced Analytics (AA) is split into descriptive, diagnostic, predictive and prescriptive analytics. The purpose of AA is to draw from internal and external sources to transform data into insight that leads to smarter decisions to spur on growth. Modern analytical advances have mostly taken place in predictive and prescriptive analytics as a result of advances in artificial intelligence, machine learning. Innovation in operations research, big data, data wrangling, ETL and visualisation technologies have similarly contributed to the rise of advanced analytics.
  
-Advanced analytics can therefore also be viewed as a bundle of techniques used to discover intricate relationships, recognize complex patterns or predict current trends. A key tenant to advanced analytics is automation. Automation are driven by intelligent and non-intelligent decision-making systems. Automated analytics are the final big stride in analytics. In the graph below, we can see the different levels and type of analytics, from the most basic to the most sophisticated.
+Advanced analytics can therefore also be viewed as a bundle of techniques used to discover intricate relationships, recognize complex patterns or predict current trends. A key tenant to advanced analytics is automation. Automation are driven by intelligent and non-intelligent decision-making systems. Automated analytics are the final big stride in analytics. In the graph below, we can see the different levels and type of analytics, from the most basic to the most sophisticated
  
 An AA system starts with descriptive and diagnostic analytics in an attempt to describe not only what happen but also why something happened. The next analytical steps is predictive modelling and this in turn is followed by decision making and execution based on these predictions. The extent of automation increases with each successive step towards prescriptive analytics. This occurs as a result of the current success of AI in narrow decision making systems. Each of the four analytical disciplines uses statistics and mathematical techniques to achieve the proposed goals. AA technologies can help to automate decision-making by guaranteeing the quality of these decisions and their contributions to business.
 
@@ -322,7 +322,7 @@ This is an random sample of 5 of 2756 new predictions:
 
 The predicted data has the same semantic as the base data, with even more clear frontiers:
 
-- for savings, there is a clear frontier at \$50K revenue.
+- for savings, there is a clear frontier at \\$50K revenue.
 - for pension, there is a clear frontier at 55 years old customers.
 
  
