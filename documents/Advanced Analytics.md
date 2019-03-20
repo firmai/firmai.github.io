@@ -378,7 +378,7 @@ Here are the results of the 2 algorithms:
  
 
 - As you can see, with decision optimization, we can safely do this marketing campaign to contact 1218 customers out of the 2756 customers.
-- This will lead to \$72.6K revenue, significantly greater than the \$50.8K revenue given by a greedy algorithm.
+- This will lead to <span>$</span>72.6K revenue, significantly greater than the <span>$</span>50.8K revenue given by a greedy algorithm.
 - With a greedy algorithm, we will:
   - be unable to focus on the correct customers (it will select fewer of them),
   - spend less of the available budget for a smaller revenue.
