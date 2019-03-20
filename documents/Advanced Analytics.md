@@ -388,8 +388,8 @@ Here are the results of the 2 algorithms:
 **Marketing campaign analysis**
 
 
-- We need a minimum of \$16K to be able to start a valid campaign and we expect it will generate \$47.5K.
-- Due to the business constraints, we will be able to address 1680 customers maximum using a budget of \$35.5K. Any money above that amount won’t be spent. The expected revenue is therefore \$87K.
+- We need a minimum of \$$16K to be able to start a valid campaign and we expect it will generate \\$47.5K.
+- Due to the business constraints, we will be able to address 1680 customers maximum using a budget of \$35.5K\. Any money above that amount won’t be spent. The expected revenue is therefore \$87K.
 
 
 | Scenario | Budget | Revenue | Number of clients | Mortgage offers | Pension offers | Savings offers |
