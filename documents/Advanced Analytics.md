@@ -322,7 +322,7 @@ This is an random sample of 5 of 2756 new predictions:
 
 The predicted data has the same semantic as the base data, with even more clear frontiers:
 
-- for savings, there is a clear frontier at \\$50K revenue \\$20K.
+- for savings, there is a clear frontier at <span>$</span>50K revenue <span>$</span>20K.
 - for pension, there is a clear frontier at 55 years old customers.
 
  
@@ -388,8 +388,8 @@ Here are the results of the 2 algorithms:
 **Marketing campaign analysis**
 
 
-- We need a minimum of \$16K to be able to start a valid campaign and we expect it will generate \$47.5K.
-- Due to the business constraints, we will be able to address 1680 customers maximum using a budget of \$35.5K. Any money above that amount won’t be spent. The expected revenue is therefore \$87K.
+- We need a minimum of <span>$</span>16K to be able to start a valid campaign and we expect it will generate <span>$</span>47.5K.
+- Due to the business constraints, we will be able to address 1680 customers maximum using a budget of <span>$</span>35.5K. Any money above that amount won’t be spent. The expected revenue is therefore \$87K.
 
 
 | Scenario | Budget | Revenue | Number of clients | Mortgage offers | Pension offers | Savings offers |
