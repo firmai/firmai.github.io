@@ -4,7 +4,7 @@ description: Modern research projects
 keywords: research, image, patents, modern, automation, BPA, BPM 
 ---
 
-##### Accounting Process Automation
+#### Accounting Process Automation
 </br>
 
 See http://xbrl.squarespace.com for developments on digital financial reporting. Please get in contact with the author for further advice and/or if you are able to lend your support to his projects. 
