@@ -4,7 +4,7 @@ title: Samples
 
 {% assign labsbase = "https://github.com/docker/labs/tree/master" %}
 
-### Please see the GitHub repository for more up to date material. 
+### Please see the [GitHub](https://github.com/firmai/) repository for more up to date material. 
 
 ## Course labs
 
