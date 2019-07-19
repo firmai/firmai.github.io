@@ -2,8 +2,11 @@ horizontalnav:
 - title: Overview
   path: /
   node: overview
-- title: Prediction
-  path: /get-started/
+#- title: Prediction
+#  path: /get-started/
+#  node: prediction
+- title: LinkedIn
+  path: https://www.linkedin.com/company/18004273/admin/
   node: prediction
 - title: Reporting
   path: /reporting/
@@ -20,8 +23,8 @@ horizontalnav:
 - title: Articles
   path: /articles/
   node: articles
-- title: Github
-  path: https://github.com/firmai/business-machine-learning
+- title: GitHub
+  path: https://github.com/firmai/industry-machine-learning
   node: github
 
 prediction:
