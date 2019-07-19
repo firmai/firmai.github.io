@@ -4,6 +4,8 @@ title: Samples
 
 {% assign labsbase = "https://github.com/docker/labs/tree/master" %}
 
+### Please see the GitHub repository for more up to date material. 
+
 ## Course labs
 
 Learn how to develop and model business problems quantitatively.
