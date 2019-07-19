@@ -2,6 +2,8 @@
 title: So What Is Advanced Analytics?
 notoc: false
 ---
+[FirmAI Linkedin](https://www.linkedin.com/company/18004273/admin/)
+
  
 ## Introduction
  
