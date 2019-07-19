@@ -5,9 +5,6 @@ horizontalnav:
 #- title: Prediction
 #  path: /get-started/
 #  node: prediction
-- title: LinkedIn
-  path: https://www.linkedin.com/company/18004273/admin/
-  node: prediction
 - title: Reporting
   path: /reporting/
   node: reporting
@@ -26,6 +23,9 @@ horizontalnav:
 - title: GitHub
   path: https://github.com/firmai/industry-machine-learning
   node: github
+- title: LinkedIn
+  path: https://www.linkedin.com/company/18004273/admin/
+  node: linkedin
 
 prediction:
 - sectiontitle: Financial Stress
