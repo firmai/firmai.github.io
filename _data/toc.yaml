@@ -27,7 +27,7 @@ horizontalnav:
   path: https://www.linkedin.com/company/18004273/admin/
   node: linkedin
 - title: News
-  path:  <a href = "https://mailchi.mp/0b6634c48c03/2ab48q8pxp" target= "_blank">News</a>
+  path:  <a href = "https://mailchi.mp/0b6634c48c03/2ab48q8pxp" target= "_blank">
   node: news
   
   
