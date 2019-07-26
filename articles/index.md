@@ -13,7 +13,9 @@ title: Research
 | [Machine Learning Birds-eye](/documents/Machine Learning Bird's-eye/) | 2017-02 |Looking at types of ML and potential applications.|
 | [Advanced Analytics](/documents/Advanced Analytics/) | 2018-01 |Explaining and applying advanced analytics. |
 | [Business Machine Learning](https://towardsdatascience.com/150-business-data-science-application-in-python-72597d90f928) | 2019-07 |150+ Business Data Science Application in Python. |
+
 &nbsp;
+
 ## Papers:
 
 | Title | Date | Description |
@@ -23,8 +25,20 @@ title: Research
 | [Bankruptcy Prediction](https://papers.ssrn.com/abstract=3420889) | 2019-11 |Predict the occurrence of litigated bankruptcies |
 | [Restaurant Closure Prediction](https://papers.ssrn.com/abstract=3420490) | 2018-01 |Predict restaurant closures within the next one to two years |
 | [Machine Learning in Asset Management](https://papers.ssrn.com/abstract=3420952) | 2019-07 |ML trading and portfolio optimisation models and techniques. |
+
 &nbsp;
+
 ## Repositories:
 
 
 &nbsp;
+
+| Title | Description |
+| --- |
+| [Python Business Analytics](https://github.com/firmai/python-business-analytics) |Python solutions to solve practical business problems.  |
+| [Industry Machine Learning](https://github.com/firmai/industry-machine-learning) |Industry machine learning and data science notebooks |
+| [Business Machine Learning](https://github.com/firmai/business-machine-learning) |practical business machine learning (BML) and business data science (BDS) applications|
+| [Financial Machine Learning](practical financial machine learning (FinML) tools and applications) |Predict restaurant closures within the next one to two years |
+| [Financial Machine Learning](https://github.com/firmai/financial-machine-learning)|ML trading and portfolio optimisation models and techniques. |
+| [Datasets](https://github.com/firmai/business-datasets) |Unique business data with an API interface. |
+| [Newsletter](https://mailchi.mp/a0e3989a5dc4/firmaikaggle) |Linkletter in the open source industry machine learning space |
