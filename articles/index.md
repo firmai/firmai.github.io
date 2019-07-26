@@ -27,7 +27,7 @@ title: Research
 ## Repositories:
 
 | Title | Description |
-| --- 
+| --- |
 | [Python Business Analytics](https://github.com/firmai/python-business-analytics) |Python solutions to solve practical business problems.  |
 | [Industry Machine Learning](https://github.com/firmai/industry-machine-learning) |Industry machine learning and data science notebooks |
 | [Business Machine Learning](https://github.com/firmai/business-machine-learning) |practical business machine learning (BML) and business data science (BDS) applications|
