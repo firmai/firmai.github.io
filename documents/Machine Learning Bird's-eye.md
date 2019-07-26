@@ -98,7 +98,7 @@ Structured data is highly organized and easily understood by machine language. T
 
 The programming language used for managing structured data is called structured query language, also known as SQL. This language was developed by IBM in the early 1970s and is particularly useful for handling relationships in databases.
  
-**What is unstructured data*?*
+**What is unstructured data?**
 
 
 Unstructured data is the chaotic brother of structured data, as it cannot be processed and analysed using conventional tools. Examples of unstructured data include text files, video files, audio files, mobile activity, social media activity, sensor activity, geo-location activity, satellite imagery, surveillance imagery – honestly, the list goes on and on.
