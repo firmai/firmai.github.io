@@ -23,7 +23,8 @@ Finds patterns (and develops predictive models) using both, input data and outpu
  
 All Supervised Learning techniques are divided in *Classification* or *Regression* prediction tasks.  
 
-</br>
+
+
 **Classification** is used for predicting discrete responses. (Binary 1, 0; Multi-class 1, 2, 3)
 
 *Binary Prediction:*
@@ -50,7 +51,8 @@ All Supervised Learning techniques are divided in *Classification* or *Regressio
 
  
  
- </br>
+
+
  
 **Regression** is used for predicting continuous responses. (35 times, $34,000)
  
@@ -88,7 +90,8 @@ Finds patterns based only on input data. This technique is useful when you’re 
 Machine learning models allow us to incorporate both structured and unstructured data.
 
 **What is structured data?**
-</br>
+
+
 Structured data is the type of data most of us are probably used to working with. Think of data that fits neatly within fixed fields and columns in relational databases and spreadsheets. Types of structured data include numbers, currency, alphabetical, names, dates, and addresses.
 
 Structured data is highly organized and easily understood by machine language. Those working within relational databases can input, search, and manipulate structured data relatively quickly. This is the most attractive feature of structured data.
@@ -96,7 +99,8 @@ Structured data is highly organized and easily understood by machine language. T
 The programming language used for managing structured data is called structured query language, also known as SQL. This language was developed by IBM in the early 1970s and is particularly useful for handling relationships in databases.
  
 **What is unstructured data*?*
-</br>
+
+
 Unstructured data is the chaotic brother of structured data, as it cannot be processed and analysed using conventional tools. Examples of unstructured data include text files, video files, audio files, mobile activity, social media activity, sensor activity, geo-location activity, satellite imagery, surveillance imagery – honestly, the list goes on and on.
 
 Unstructured data is difficult to make sense of because it has no pre-defined structure that makes it easy to classify in a relational database. Instead, non-relational, or NoSQL databases, are best fit for managing unstructured data. An astonishing 80 percent of all data generated today is considered unstructured – and this number will continue to rise as new internet-connected devices come online.
