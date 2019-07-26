@@ -17,7 +17,7 @@ horizontalnav:
 - title: Samples
   path: /samples/
   node: samples
-- title: Medium
+- title: Research
   path: /articles/
   node: articles
 - title: GitHub
