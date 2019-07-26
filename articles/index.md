@@ -31,7 +31,7 @@ title: Research
 | [Python Business Analytics](https://github.com/firmai/python-business-analytics) |Python solutions to solve practical business problems.  |
 | [Industry Machine Learning](https://github.com/firmai/industry-machine-learning) |Industry machine learning and data science notebooks |
 | [Business Machine Learning](https://github.com/firmai/business-machine-learning) |practical business machine learning (BML) and business data science (BDS) applications|
-| [Financial Machine Learning]practical financial machine learning (FinML) tools and applications) |Predict restaurant closures within the next one to two years |
+| [Financial Machine Learning](practical financial machine learning (FinML) tools and applications) |Predict restaurant closures within the next one to two years |
 | [Financial Machine Learning](https://github.com/firmai/financial-machine-learning)|ML trading and portfolio optimisation models and techniques. |
 | [Datasets](https://github.com/firmai/business-datasets) |Unique business data with an API interface. |
 | [Newsletter](https://mailchi.mp/a0e3989a5dc4/firmaikaggle) |Linkletter in the open source industry machine learning space |
