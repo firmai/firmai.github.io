@@ -31,7 +31,7 @@ All Supervised Learning techniques are divided in *Classification* or *Regressio
  
 
 - Future direction of commodity, currency, equity and bonds prices.
-- Predicting customer gender.
+- Predicting customer's gender.
 - Predict whether customers will or will not respond to direct mail.
 - Predict the likelihood that a grant application will succeed.
 - Predict whether someone is willing to donate to a cause.
