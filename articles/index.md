@@ -30,7 +30,6 @@ title: Research
 
 ## Repositories:
 
-
 &nbsp;
 
 | Title | Description |
