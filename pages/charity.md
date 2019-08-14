@@ -17,6 +17,7 @@ At our core we offer a broad range of data science services. We want to empower 
 1. Risk assessment tool to predict restaurant facility failures for a large US chain to help the client proactively intervene. 
 1. Designed a system for an institutional lender to predict corporate earnings surprises and bankruptcies.
 
+</br>
 ##### So what does this mean for you? 
 
 We can make your processes more efficient, spot transaction anomalies, predict the useful life of your assets, automate your reporting, do sentiment analysis on your emails, convert your PDFs into data, calculate donor life time value, identify donor cohorts and clusters, identify prospective donor segments, investigate donor behavior over time using sequential analysis, predict donor giving using demand forecasting techniques, predict website visits, predict the likelihood of donor activity, establish charityKPIs, estimate current donor satisfaction, recommend the best future donation option to current donors, identify donor churn rates to create targeted retention campaigns, topic modelling on donor suggestions, analyze employee promotion patterns, identify factors associated with employee turnover, produce meaningful visualizations, perform a charity competitor analysis using clustering techniques over competitors websites and other statistics, plus web scraping solutions for Facebook, Glassdoor, Instagram, Morningstar, Similarweb, Yelp, Spyfu, Linkedin data, all of which can be used to estimate your charity’s competitive position and campaign success. 
