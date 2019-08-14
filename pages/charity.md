@@ -18,6 +18,7 @@ At our core we offer a broad range of data science services. We want to empower 
 1. Designed a system for an institutional lender to predict corporate earnings surprises and bankruptcies.
 
 
+------
 
 ##### So what does this mean for you? 
 
