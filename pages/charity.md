@@ -12,8 +12,8 @@ At our core we offer a broad range of data science services. We want to empower 
 1. Built a custom alert system to help a hedge fund find equities that matched their unique criteria. 
 1. Designed a system that gathers data from untapped source repositories (don't tell your secret sauce) to help a real estate broker find REO opportunities.
 1. Built a unique bidding strategy, system and tools based on predictive analytics to help a client bid on distressed debt.
-1. Risk assessment tool to predict restaurant facility failures for a large US chain to help the client proactively intervene. (see links, one, two). 
-1. Designed a system for an institutional lender to predict corporate earnings surprises and bankruptcies (one, two).
+1. Risk assessment tool to predict restaurant facility failures for a large US chain to help the client proactively intervene. 
+1. Designed a system for an institutional lender to predict corporate earnings surprises and bankruptcies.
 
 So what does this mean for you? 
 
