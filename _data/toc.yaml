@@ -29,8 +29,7 @@ horizontalnav:
 - title: GitHub
   path: https://github.com/firmai/industry-machine-learning
   node: github
-- title: LinkedIn
-  path: [Google](https://google.com)
+- title: [Google](https://google.com)
   node: linkedin
 
 
