@@ -1,5 +1,5 @@
 ---
-title: Charity Campaign
+title: Charity Success
 description: Modern analytics projects
 keywords: charity, donor, compaign, business, automation. 
 ---
@@ -8,12 +8,12 @@ FirmAI advances SME business automation and business intelligence. The mission o
 
 At our core we offer a broad range of data science services. We want to empower companies to realize the practical value enabled by AI and big data. What follows is six recent projects we have worked on:
 
-Source and clean data on philanthropic activity to help a venture capitalist find prospective investors to fund the next round of clinical trials required by FDA.
-Built a custom alert system to help a hedge fund find equities that matched their unique criteria. 
-Designed a system that gathers data from untapped source repositories (don't tell your secret sauce) to help a real estate broker find REO opportunities.
-Built a unique bidding strategy, system and tools based on predictive analytics to help a client bid on distressed debt.
-Risk assessment tool to predict restaurant facility failures for a large US chain to help the client proactively intervene. (see links, one, two). 
-Designed a system for an institutional lender to predict corporate earnings surprises and bankruptcies (one, two).
+1. Source and clean data on philanthropic activity to help a venture capitalist find prospective investors to fund the next round of clinical trials required by FDA.
+1. Built a custom alert system to help a hedge fund find equities that matched their unique criteria. 
+1. Designed a system that gathers data from untapped source repositories (don't tell your secret sauce) to help a real estate broker find REO opportunities.
+1. Built a unique bidding strategy, system and tools based on predictive analytics to help a client bid on distressed debt.
+1. Risk assessment tool to predict restaurant facility failures for a large US chain to help the client proactively intervene. (see links, one, two). 
+1. Designed a system for an institutional lender to predict corporate earnings surprises and bankruptcies (one, two).
 
 So what does this mean for you? 
 
