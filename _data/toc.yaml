@@ -23,15 +23,12 @@ horizontalnav:
 - title: Vendors
   path: https://docs.google.com/spreadsheets/d/e/2PACX-1vTuItxrnKiv8vGtWXYUP03KH8ChWLHYPorgrBrgA9bLFNhTqVuBINRStq4t-mal9frhd7i6DGc3Jr45/pubhtml#
   node: vendors
-
 - title: Research
   path: /articles/
   node: articles
 - title: GitHub
   path: https://github.com/firmai/industry-machine-learning
   node: github
-  target: _blank
-
 - title: [Google](https://google.com)
   path: [Google](https://google.com)
   node: linkedin
