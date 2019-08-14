@@ -5,3 +5,4 @@ source "https://rubygems.org"
 # https://hub.docker.com/r/starefossen/github-pages/tags/
 gem "github-pages", "137"
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem 'jekyll-target-blank'
