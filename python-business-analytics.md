@@ -1,81 +1,64 @@
 ---
-title: Decision Making
+title: Python Business Analytics
 notoc: true
 ---
 
+A series looking at implementing python solutions to solve practical business problems. Every week we will look at hand picked businenss solutions. See the following [google drive](https://drive.google.com/open?id=1mi5-fwM47GioHFePRcGOtJvo_ewpoLJL) for all the code and [github](https://github.com/firmai/python-business-analytics/tree/master/data) for all the data. If you follow the [LinkedIn page](https://www.linkedin.com/company/firmai), you would be able to see the lastest developments. 
 
-##### Finance, Actuarial and Economic Modules:
+---
+#### All projects are of intermediate to advanced difficulty and the projects are not presented in any particular order; nothing stops you from starting at week six for example. 
 
+### Week 1/52: [Bike Share Business Case](https://colab.research.google.com/drive/1quNMjDZsFkw7GQ3cOoGW12G0AAfPuujy) - Google Colab
 
-| Repository | Description |
-| --- | --- |
-| [Pyfolio]( https://github.com/quantopian/pyfolio) | Is a Python library for performance and risk analysis of financial portfolios. |
-| [Pyliferisk](https://github.com/franciscogarate/pyliferisk)  | Is an open library written in python for life and actuarial calculation contracts, based on commonly used methodologies among actuaries (International Actuarial Notation). |
-| [Hark](https://github.com/econ-ark/HARK)  | Repository for microeconomic functions.  |
-|[QuantEcon](https://quantecon.org/)| Modern open source computational tools for economics, econometrics, and decision making |
-| [Notebooks](https://quantecon.org/notebooks)| Notebooks contributed to QuantEcon |
+Outlier Analysis, Model Selection, Missing Values, Descriptive Statistics
 
+### Week 2/52: [Reuters Author NLP](https://colab.research.google.com/drive/10wn2oI8f8_IAHYj7sXbrmx0C1wY6e4ny) - Google Colab
 
+Process Text, pyLDAvis, Word Embeddings, Text Evaluation, fuzzywuzzy
 
-<br>
-##### Optimisation:
+### Week 3/52: [Customer Lifetime Value](https://colab.research.google.com/drive/1yxUkWZSBJWIoxBAi7MIxvkWKNgr0NXDH) - Google Colab
 
-| Repository | Description |
-| --- | --- |
-| [Google Optimisation](https://developers.google.com/optimization/) | LP, MIP and CP optimisation. |
-| [Pypsa Power](https://pypsa.org/examples/)| Power System Analysis Examples. |
-| [Platypus](https://github.com/Project-Platypus/Platypus) | Multiobjective Optimisation.  |
+RFM Analysis, Pareto Model, NDB Model, Gamma-Gamma Model, CLV Model, Constraint Programming
 
+### Week 4/52: [Customer Segmentation](https://colab.research.google.com/drive/1zLnSBEOGsqVzAiDTRKz6xxHlbUO36g-O) - Google Colab
 
-<br>
+Radar, Silhouette, PCA, Grouping, Invoices, Inventory, Datatable, Basket, 
 
+### Week 5/52: [Customer Visits](https://colab.research.google.com/drive/1T_8-LlsozRA88NwmerC84ykxRXjwQlPn) - Google Colab
 
-##### Computational Analysis:
+Week, EDA, Simulated, Prediction, Dummy Variable
 
-| Repository | Description |
-| --- | --- |
-|[Scikit-survival](https://github.com/sebp/scikit-survival) | A module for survival analysis. |
-| [Human Decision Making]( http://conference.scipy.org/proceedings/scipy2016/pdfs/alejandro_weinstein.pdf)  | Fitting human decision making using reinforcement learning, see [repository](https://github.com/aweinstein/FHDMM).  |
-| [Expertsys Decision Tree](https://github.com/aikramer2/sklearn-expertsys) |  Textual analysis of decision trees.  |
-|[Model Interpretation](https://christophm.github.io/interpretable-ml-book/agnostic.html)| Digital book surveying multiple model interpretation techniques. |
-| [Lime Features](https://github.com/marcotcr/lime)| Local explainable surrogate values for feature explanation|
-| [Shapley Values](https://github.com/slundberg/shap)  | Features game theoretically interpreted based on their contribution to the target "payout". |
-| [Six Pack A/B Test](https://github.com/sixpack/sixpack) | Sixpack is a framework to enable A/B testing across multiple programming languages.   |
-| [Flask A/B Test](https://github.com/jpvanhal/flask-split) |Flask-Split is a Flask extension for A/B testing your web application. |
+### Week 6/52: [Demand Forecasting](https://colab.research.google.com/drive/1da_iU41wykFHKgDV4c5eLbvwAQQzn9P9) - Google Colab
 
+Neural Network, Sales, Relu, LSTM, CNN, Evaluation
 
+### Week 7/52: [AirBnB Sydney Rent Evaluation](https://colab.research.google.com/drive/16ILDbLl6rCD0S3r8LrEV7WXpC8LpDuo7) - Google Colab
 
+Full Pipeline, Random Forest, Visualisation, Grid Search, Confidence Interval
 
+### Week 8/52: [Portfolio Optimisation](https://colab.research.google.com/drive/1ulDSw7DEJH1SYRVwvtJXYU0naFgaaBiR) - Google Colab
 
-<br>
-##### Strategy:
+Efficient Frontier, Stocks, Modern Portfolio Theory, Pivot, Simulations, Minimum Volatility, Sharpe Ratio
 
+### Week 9/52: [Economic Analysis](https://colab.research.google.com/drive/106e72WUIWY3UT1HHoaXYO84ZHWqC2zjZ) - Google Colab
 
-| Repository | Description |
-| --- | --- |
-|[EMA Scenario Discovery](https://github.com/quaquel/EMAworkbench/blob/master/ema_workbench/examples/blog_post.ipynb)  | A notebook example on scenario discovery. |
-| [EMA Workbench](https://github.com/quaquel/EMAworkbench)  | Examples of decision making under uncertainty.  |
-|[PySD](https://github.com/JamesPHoughton/pysd) |  Simulating System Dynamics Models in Python.  |
-|[Marketing Datascience]( https://github.com/justwjr/Marketing-Data-Science) | A series of marketing data sets and notebooks. |
-| [Nashpy]( https://github.com/drvinceknight/Nashpy) | A library for the computation of Nash equilibria in two player games.|
-| [Networkx]( https://github.com/networkx/networkx) | Network Analysis Package. |
+GDP, Life Satisfaction, Linear Regression Plots, Prediction Model
 
+### Week 10/52: [Loan Classification](https://colab.research.google.com/drive/1CyF0OfKq8dSPjnrlYnwI2cL32f-AUjCf) - Google Colab
 
-<br>
-##### Process:
+Default, Credit Scores, Visualisations, Data Cleaning, ROC Curves, Multi-class Classification
 
+### Week 11/52: [Venture Capital](https://colab.research.google.com/drive/1OyPc3TTOrn-sQpLd-nfWxCSwGS5u5q5L) - Google Colab
 
-| Repository | Description |
-| --- | --- |
-|[Process Mining Software](https://github.com/harrywang/pyprom) | Process mining package. |
-|[Comidor]( https://www.comidor.com/)  | Paid for business process management.  |
-|[Processmaker](https://www.processmaker.com/) |  Process management.  |
-|[Activiti]( https://www.activiti.org/)| Activiti is a light-weight workflow and Business Process Management (BPM) Platform. |
-| [Bonita BPM]( https://www.bonitasoft.com/products)  | Paid for business process management.|
-| [Red Hat JBoss BPM Suite]( https://developers.redhat.com/products/bpmsuite/overview/?referrer=jbd) | Platform for creating cloud-native business automation applications and microservices. |
-| [Camunda]( https://camunda.org/) | Workflow and decision automation platform. |
+Capital Allocation, Decision Trees, Acquisitions, Investment
 
+### Week 12/52: [Bankruptcy Prediction](https://colab.research.google.com/drive/1ozRafLRWiVL9bwF5ihRUa4gz4rURKEW6) - Google Colab
 
+Voting Classifiers, Bagging Ensembles, SMOTE, XGBoost, Cross-validation
+
+### Week 13/52: [HR Analytics](https://colab.research.google.com/drive/1kr-45C5ipdc57sjdlESB2M0eRVXKs-oV) - Google Colab
+
+OSEMN, Bagging Ensembles, AUC, Model Comparison, ROC Graph, Feature Importance Graph
  
 
 
