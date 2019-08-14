@@ -17,6 +17,9 @@ horizontalnav:
 - title: Samples
   path: /samples/
   node: samples
+- title: Vendors
+  path: https://docs.google.com/spreadsheets/d/e/2PACX-1vTuItxrnKiv8vGtWXYUP03KH8ChWLHYPorgrBrgA9bLFNhTqVuBINRStq4t-mal9frhd7i6DGc3Jr45/pubhtml#
+  node: vendors
 - title: Research
   path: /articles/
   node: articles
@@ -27,7 +30,6 @@ horizontalnav:
   path: https://www.linkedin.com/company/18004273/admin/
   node: linkedin
 
-  
   
   
   
