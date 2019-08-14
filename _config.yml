@@ -13,8 +13,7 @@ lsi: false
 url: https://firmai.com
 keep_files: ["v17.06"]
 
-plugins_dir: ./_scripts
-plugins:
+plugins_dir:
   - jekyll-sitemap
   - jekyll-target-blank
 # Component versions -- address like site.docker_ce_stable_version
