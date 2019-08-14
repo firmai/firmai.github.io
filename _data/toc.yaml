@@ -8,9 +8,12 @@ horizontalnav:
 - title: Reporting
   path: /reporting/
   node: reporting
-- title: Decision Making
-  path: /decision-making/
-  node: decision
+- title: Python
+  path: /python-business-analytics/
+  node: python
+#- title: Decision Making
+#  path: /decision-making/
+#  node: decision
 - title: 4D
   path: /4D-Report/
   node: experimental
