@@ -48,8 +48,8 @@ title: Research Projects
 ### Industry Machine Learning:
 
 A curated list of applied machine learning and data science notebooks and libraries accross different industries. The code in this repository is in Python (primarily using jupyter notebooks) unless otherwise stated. 
-
 &nbsp;
+
 
 | <!-- -->                         | <!-- -->                         | <!-- -->                          |
 | -------------------------------- | -------------------------------- | --------------------------------- |
@@ -59,6 +59,8 @@ A curated list of applied machine learning and data science notebooks and librar
 | [Government and Public Works](#public)      | [Healthcare](#healthcare)  | [Media & Publishing](#media)                |
 | [Justice, Law and Regulations](#legal)      | [Miscellaneous](#miscellaneous)                    | [Accounting](#accounting) |
 | [Real Estate, Rental & Leasing](#realestate)    | [Utilities](#utilities)              | [Wholesale & Retail](#wholesale)                  |
+
+
 
 
 &nbsp;
