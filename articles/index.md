@@ -1,5 +1,5 @@
 ---
-title: Research Repository
+title: Research Projects
 ---
 
 {% assign labsbase = "https://github.com/docker/labs/tree/master" %}
