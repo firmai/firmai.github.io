@@ -1312,7 +1312,6 @@ title: Research
 - [Deep Learning III](https://github.com/Rachnog/Deep-Trading) - Algorithmic trading with deep learning experiments.
 - [Deep Learning IV](https://github.com/achillesrasquinha/bulbea) - Bulbea: Deep Learning based Python Library.
 - [LTSM GRU](https://github.com/RajatHanda/Finance-Forecasting) - Stock Market Forecasting using LSTM\GRU.
--  - Multilayer neural network architecture for stock return prediction.
 - [LTSM Recurrent](https://github.com/VivekPa/AIAlpha) - OHLC Average Prediction of Apple Inc. Using LSTM Recurrent Neural Network.
 - [ARIMA-LTSM Hybrid](https://github.com/imhgchoi/Corr_Prediction_ARIMA_LSTM_Hybrid) - Hybrid model to predict future price correlation coefficients of two assets.
 - [Neural Network](https://github.com/VivekPa/IntroNeuralNetworks) -  Neural networks to predict stock prices.
