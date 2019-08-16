@@ -740,7 +740,7 @@ This section relates to predictions for multiple classes. Machine learning has s
 <div id="problem1" class="tab-pane fade in active">
 {% capture problem1-content %}
 
-##### Multi-class Prediction 
+#### Multi-class Prediction 
 
 * Item specific sales prediction i.e. unit of sales.
 * Predicting store sales.
