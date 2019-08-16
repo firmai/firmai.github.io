@@ -1,6 +1,7 @@
 User-agent: *
 
 # Docker Engine archives
-Disallow: /v1.4/
+
+Allow: /
 
 Sitemap: https://firmai.com/sitemap.xml
