@@ -44,6 +44,7 @@ title: Research Projects
 
 &nbsp;
 
+----
 
 ### Industry Machine Learning:
 
@@ -976,7 +977,7 @@ A curated list of applied machine learning and data science notebooks and librar
 - [Dwell Time](https://github.com/arvindkarir/retail) - Customer dwell time and other analysis. 
 - [Retail Cohort](https://github.com/finnqiao/cohort_online_retail) - Cohort analysis. 
 
-
+----
 &nbsp;
 ### Business Machine Learning:
 
@@ -1307,7 +1308,9 @@ A curated list of applied business machine learning (BML) and business data scie
 * [Fight Delay Prediction](https://github.com/cavaunpeu/flight-delays/blob/master/notebooks/flight-prediction.ipynb) - Transfer learning for flight-delay prediction via variational autoencoders in Keras.
 * [Electric Fault Prediction](https://github.com/susano0/Electric-Fault-Prediction/blob/master/Fault_pred.ipynb) - Predict tripping at grid stations by applying simple machine learning algorithms.
 * [Popularity Prediction in R](https://github.com/s-mishra/featuredriven-hawkes/blob/master/code/marked_hawkes_point_process.ipynb) - Marked Hawkes Point Process .
+* 
 
+----
 
 &nbsp;
 ### Financial Machine Learning:
