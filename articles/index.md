@@ -1327,7 +1327,8 @@ title: Research
 - [RL IV](https://github.com/jjakimoto/DQN) - Reinforcement Learning for finance.
 - [RL V](https://github.com/gstenger98/rl-finance) - Building an Agent to Trade with Reinforcement Learning.
 - [Pair Trading RL](https://github.com/shenyichen105/Deep-Reinforcement-Learning-in-Stock-Trading) - Using deep actor-critic model to learn best strategies in pair trading.
-## Other Models
+
+##### Other Models
 - [Mixture  Models I](https://github.com/BlackArbsCEO/Mixture_Models) - Mixture models to predict market bottoms. 
 - [Mixture Models II](https://github.com/BlackArbsCEO/mixture_model_trading_public)  - Mixture models and stock trading.
 - [Scikit-learn Stock Prediction](https://github.com/robertmartin8/MachineLearningStocks)  - Using python and scikit-learn to make stock predictions.
@@ -1336,7 +1337,7 @@ title: Research
 - [Trend Following](http://inseaddataanalytics.github.io/INSEADAnalytics/ExerciseSet2.html) - A futures trend following portfolio investment strategy.
 
 
-###### Data Processing Techniques and Transformations
+##### Data Processing Techniques and Transformations
 - [Advanced ML](https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises) - Exercises too Financial Machine Learning (De Prado). 
 - [Advanced ML II](https://github.com/hudson-and-thames/research) - More implementations of Financial Machine Learning (De Prado). 
 
@@ -1352,7 +1353,8 @@ title: Research
 - [Online Portfolio Selection](https://nbviewer.jupyter.org/github/paulperry/quant/blob/master/OLPS_Comparison.ipynb) - ****Comparing OLPS algorithms on a diversified set of ETFs.
 - [OLMAR Algorithm](https://github.com/charlessutton/OLMAR/blob/master/Part3.ipynb) - Relative importance of each component of the OLMAR algorithm.
 - [Modern Portfolio Theory](https://nbviewer.jupyter.org/github/Marigold/universal-portfolios/blob/master/modern-portfolio-theory.ipynb) - Universal portfolios; modern portfolio theory. 
-## Factor and Risk Analysis:
+
+##### Factor and Risk Analysis:
 - [Various Risk Measures](https://github.com/Jorgencr/Alternative-and-Responsible-Investments/blob/master/Final_masterfile.ipynb) -  Risk measures and factors for alternative and responsible investments. 
 - [Pyfolio](https://github.com/quantopian/pyfolio) -  Portfolio and risk analytics in Python.
 - [Risk Basic](https://github.com/RJT1990/Active-Portfolio-Management-Notes/blob/master/Chapter%203%2C%20Risk.ipynb) - Active portfolio risk management .
