@@ -56,7 +56,7 @@ redirect_from:
 
 {% include_relative nav.html selected="1" %}
 
-Welcome! This section highlights important business machine learning models. Many of these models are not code-complete and simply provides excerpted pseudo-like code. When in doubt, 90% of the code mentions on this website are those of the [Python](https://www.python.org/) programming language. 
+Welcome! This section highlights important business machine learning models. Many of these models are not code-complete and simply provide excerpted pseudo-like code. The code on this website is in the [Python](https://www.python.org/) programming language. 
 
 This six-part documentation identifies:
 
@@ -67,14 +67,15 @@ This six-part documentation identifies:
 5. [The core principles of recommender systems](part5.md)
 6. [And experimental image and voice technologies](part6.md)
 
-With the prerequisite knowledge of python and expecially the data science components of data science, these sections
-are easily explorable. If you need any help with the models feel free to get in touch for a consultation. 
+This section is more easily explorable with some knowledge of Python; especially of its data science components. If you need any help with the models feel free to get in touch for a consultation. 
 
 
-
+&nbsp;
 ### Binary Classification
 
-A lot of classification problems are binary in nature such as predicting whether the stock price will go up or down in the future, predicting gender and predicting whetehr a prospective client will buy your product. 
+A lot of classification problems are binary in nature such as predicting whether the stock price will go up or down in the future, predicting gender and predicting wether a prospective client will buy your product. 
+
+&nbsp;
 
 <ul class="nav nav-tabs">
 <li class="active"><a data-toggle="tab" href="#problem">Problem Sets</a></li>
@@ -93,7 +94,7 @@ A lot of classification problems are binary in nature such as predicting whether
 * Predicting a customer demographic.
 * Predict wheteher customers will respond to direct mail.
 * Predict the pobabilitiy of damage in a home inspection 
-* Predict the liklihood that a grant application will succeed.
+* Predict the likelihood that a grant application will succeed.
 * Predict job success using a 10 part questionaire. 
 * Predict those most likley to donate to a cause. 
 
@@ -724,7 +725,9 @@ And pick the final model.
 
 ### Multi-class Classification
 
-This section relates to predictions for multiple classes. Machine learning has improved the quality of these types of predictions.
+This section relates to predictions for multiple classes. Machine learning has significantly enahnced the quality and accuracy of multiple class/lable predictions.
+
+&nbsp;
 
 <ul class="nav nav-tabs">
 <li class="active"><a data-toggle="tab" href="#problem1">Problem Sets</a></li>
@@ -739,16 +742,16 @@ This section relates to predictions for multiple classes. Machine learning has i
 
 ##### Multi-class Prediction 
 
-* Item specific sales prediction i.e. unit of sales
+* Item specific sales prediction i.e. unit of sales.
 * Predicting store sales.
-* Predict the unit of sales fro multiple items.
-* Predicting the liklihood of certain crimes occuring at different points geographically and at different times.
+* Predict the unit of sales from multiple items.
+* Predicting the likelihood of certain crimes occuring at different points geographically and at different times.
 * What when, where and at what severity will the flu strike.
 * New empoyees predict the level of access and what access they require.
 * Predict the most pressing community issue.
-* What customers wil purcahse what policy.
+* What customers wil purchase what policy.
 * Predict which shoppers are most likely to repeat purchase.
-* Predict which blog post from a selcetion would be most popular
+* Predict which blog post from a selection would be most popular
 * Predict destination of taxi with initial partial trajectories.
 
 
@@ -1189,6 +1192,6 @@ And pick the final model.
 
 
 
-
+&nbsp;
 
 [On to Part 2 >>](part2.md){: class="button outline-btn" style="margin-bottom: 30px; margin-right: 100%"}
