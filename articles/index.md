@@ -50,6 +50,7 @@ title: Research Projects
 A curated list of applied machine learning and data science notebooks and libraries accross different industries. The code in this repository is in Python (primarily using jupyter notebooks) unless otherwise stated. 
 
 &nbsp;
+
 | <!-- -->                         | <!-- -->                         | <!-- -->                          |
 | -------------------------------- | -------------------------------- | --------------------------------- |
 | [Accommodation & Food](#accommodation)             | [Agriculture](#agriculture)           | [Banking & Insurance](#bankfin)               |
@@ -978,6 +979,8 @@ A curated list of applied machine learning and data science notebooks and librar
 ### Business Machine Learning:
 
 A curated list of applied business machine learning (BML) and business data science (BDS) examples and libraries. The code in this repository is in Python (primarily using jupyter notebooks) unless otherwise stated.
+
+&nbsp;
 
 #### Table of Contents
 
