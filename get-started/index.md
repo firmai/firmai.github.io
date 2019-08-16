@@ -60,7 +60,7 @@ Welcome! This section highlights important business machine learning models. Man
 
 This six-part documentation identifies:
 
-1. Some of the best classificaiton models, on this page.
+1. State of the art classification models ([this page](index.md)).
 2. [Continuous value prediction problems](part2.md)
 3. [The use of Natural Language Processing](part3.md)
 4. [Important time series solutions](part4.md)
