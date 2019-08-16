@@ -47,7 +47,6 @@ title: Research
 
 ### Industry Machine Learning:
 
-</br>
 
 | <!-- -->                         | <!-- -->                         | <!-- -->                          |
 | -------------------------------- | -------------------------------- | --------------------------------- |
@@ -59,7 +58,7 @@ title: Research
 | [Real Estate, Rental & Leasing](#realestate)    | [Utilities](#utilities)              | [Wholesale & Retail](#wholesale)                  |
 
 
-
+&nbsp;
 #### Table of Contents
 <!-- MarkdownTOC depth=4 -->
 
@@ -150,7 +149,7 @@ title: Research
     
 
 <!-- /MarkdownTOC -->
-
+&nbsp;
 <a name="accommodation"></a>
 #### Accommodation & Food
 
@@ -202,7 +201,7 @@ title: Research
 - [Reverse Image Lodging](https://github.com/starfoe/Eye-bnb) - Find your preferred lodging by uploading an image. 
 
 
-
+&nbsp;
 <a name="accounting"></a>
 #### Accounting
 
@@ -257,7 +256,7 @@ title: Research
 * [Computer Augmented Accounting](https://www.youtube.com/playlist?list=PLauepKFT6DK8TaNaq_SqZW4LIDJhCkZe2) - A video series from Rutgers University looking at the use of computation to improve accounting.
 * [Accounting in a Digital Era](https://www.youtube.com/playlist?list=PLauepKFT6DK8_Xun584UQPPsg1grYkWw0) - Another series by Rutgers investigating the effects the digital age will have on accounting.
 
-
+&nbsp;
 <a name="agriculture"></a>
 #### Agriculture
 
@@ -281,7 +280,7 @@ title: Research
 - [Irrigation and Pest Prediction](https://github.com/divyam3897/agriculture) - Analyse irrigation and predict pest likelihood. 
 
 
-
+&nbsp;
 <a name="bankfin"></a>
 #### Banking & Insurance
 
@@ -352,7 +351,7 @@ title: Research
 * [Bank Note Fraud Detection](https://github.com/apoorv-goel/Bank-Note-Authentication-Using-DNN-Tensorflow-Classifier-and-RandomForest) - Bank Note Authentication Using DNN Tensorflow Classifier and RandomForest.
 * [ATM Surveillance](https://github.com/ShreyaGupta08/InfosysHack) - ATM Surveillance in banks use case.
 
-
+&nbsp;
 <a name="biotech"></a>
 #### Biotechnological & Life Sciences
 
@@ -413,7 +412,7 @@ title: Research
 - [Evolutionary](https://github.com/hardmaru/estool) - Evolution Strategies Tool
 - [Glaciers](https://github.com/OGGM/oggm-edu) - Educational material about glaciers.
 
-
+&nbsp;
 <a name="construction"></a>
 #### Construction & Engineering
 
@@ -476,7 +475,7 @@ title: Research
 - [Steel](https://github.com/hbutsuak95/Quality-Optimization-of-Steel) - Optimisation of steel.
 - [Awesome Materials Informatics](https://github.com/tilde-lab/awesome-materials-informatics) - Curated list of known efforts in materials informatics.
 
-
+&nbsp;
 <a name="economics"></a>
 #### Economics
 
@@ -501,7 +500,7 @@ title: Research
 - [Computational](https://github.com/zhentaoshi/econ5170) - Computational methods in economics. 
 - [Computational 2](https://github.com/QuantEcon/columbia_mini_course) - Small course in computational economics. 
 - [Econometric Theory](https://github.com/jstac/econometrics/tree/master/notebooks) - Notebooks of A Primer on Econometric theory. 
-
+&nbsp;
 <a name="education"></a>
 #### Education & Research
 
@@ -536,8 +535,10 @@ title: Research
 - [Budget NLP 3](https://github.com/sushant2811/SchoolBudgetData/blob/master/SchoolBudgetData.ipynb) - Budget classification. 
 - [Survey Analysis](https://github.com/kaumaron/Data_Science/tree/master/Education) - Education survey analysis. 
 
+
+&nbsp;
 <a name="emergency"></a>
-## Emergency & Police
+#### Emergency & Police
 
 <a name="emergency-prevent"></a>
 **Preventative and Reactive**
@@ -591,7 +592,7 @@ title: Research
 - [Flood Risk](https://github.com/arijitsaha/FloodRisk) -  Impact of catastrophic flood events.
 - [Fire Prediction](https://github.com/Senkichi/The_Catastrophe_Coefficient) - We used 4 different algorithms to predict the likelihood of future fires.
 
-
+&nbsp;
 <a name="finance"></a>
 #### Finance
 
@@ -644,7 +645,7 @@ title: Research
 - [Predicting Earnings Surprises](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3420722) 
 - [Machine Learning in Asset Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3420952) 
 
-
+&nbsp;
 <a name="healtcare"></a>
 #### Healthcare
 
@@ -658,7 +659,7 @@ title: Research
 - [Bubonic Plague](https://github.com/callysto/curriculum-notebooks/blob/master/Humanities/BubonicPlague/bubonic-plague-and-SIR-model.ipynb) - Bubonic plague and SIR model. 
 
 
-
+&nbsp;
 <a name="legal"></a>
 #### Justics, Law & Regulations
 
@@ -700,6 +701,7 @@ title: Research
 - [Financial Machine Learning Regulation (Paper)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3371902)
 
 
+&nbsp;
 <a name="manufacturing"></a>
 #### Manufacturing
 
@@ -734,7 +736,7 @@ title: Research
 - [Manufacturing Quality](https://github.com/limberc/tianchi-IMQF) - Intelligent *Manufacturing* Quality Forecast 
 - [Auto Manufacturing](https://github.com/trentwoodbury/ManufacturingAuctionRegression) -  Regression Case Study Project on *Manufacturing* Auction Sale Data.
 
-
+&nbsp;
 <a name="media"></a>
 #### Media & Publishing
 
@@ -748,7 +750,7 @@ title: Research
 - [Marketing Scripts](https://github.com/HowardNTUST/Marketing-Data-Science-Application) - Marketing data science applications. 
 - [Social Mining](https://github.com/mikhailklassen/Mining-the-Social-Web-3rd-Edition/tree/master/notebooks) - Mining the social web. 
 
-
+&nbsp;
 <a name="miscellaneous"></a>
 #### Miscellaneous
 
@@ -764,7 +766,7 @@ title: Research
 - [Fashion](https://github.com/khanhnamle1994/fashion-recommendation) **-** A clothing retrieval and visual recommendation model for fashion images
 
 
-
+&nbsp;
 <a name="physics"></a>
 #### Physics
 
@@ -791,7 +793,7 @@ title: Research
 - [Neural Networks](https://github.com/GiggleLiu/marburg) - P*hysics* meets neural networks
 
 
-
+&nbsp;
 <a name="public"></a>
 #### Government and Public Works
 
@@ -855,7 +857,7 @@ title: Research
 - [YT Politics](https://github.com/kmunger/YT_descriptive) -  Mapping *Politics* on YouTube
 - [Political Ideology](https://github.com/albertwebson/Political-Vector-Projector) - Unsupervised learning of *political* ideology by word vector projections
 
-
+&nbsp;
 <a name="realestate"></a>
 #### Real Estate, Rental & Leasing
 
@@ -880,7 +882,7 @@ title: Research
 - [Predict Household Poverty](https://github.com/Featuretools/predict-household-poverty) -  Predict the poverty of households in Costa Rica using automated feature engineering.
 - [Airbnb public analytics competition](http://inseaddataanalytics.github.io/INSEADAnalytics/groupprojects/AirbnbReport2016Jan.html): - Now strategic management. 
 
-
+&nbsp;
 <a name="utilities"></a>
 #### Utilities
 
@@ -948,7 +950,7 @@ title: Research
 - [Transfer Learning Flight Delay](https://github.com/cavaunpeu/flight-delays) - Using variation encoders in Keras to predict flight delay. 
 - [Replenishment](https://github.com/pratishthakapoor/RetailReplenishement/tree/master/Code) - Retail replenishment code for supply chain management.
 
-
+&nbsp;
 <a name="wholesale"></a>
 #### Wholesale & Retail
 
