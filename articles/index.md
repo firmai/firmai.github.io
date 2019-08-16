@@ -60,9 +60,7 @@ title: Research
 
 
 
-## Table of Contents
-
-### Industry Applications
+#### Table of Contents
 <!-- MarkdownTOC depth=4 -->
 
 - [Accommodation & Food](#accommodation)
@@ -154,7 +152,7 @@ title: Research
 <!-- /MarkdownTOC -->
 
 <a name="accommodation"></a>
-## Accommodation & Food
+#### Accommodation & Food
 
 <a name="accommodation-food"></a>
 **Food**
@@ -206,10 +204,10 @@ title: Research
 
 
 <a name="accounting"></a>
-## Accounting
+#### Accounting
 
 <a name="accounting-ml"></a>
-#### Machine Learning
+##### Machine Learning
 * [Chart of Account Prediction](https://github.com/agdgovsg/ml-coa-charging ) - Using labeled data to suggest the account name for every transaction.
 * [Accounting Anomalies](https://github.com/GitiHubi/deepAI/blob/master/GTC_2018_CoLab.ipynb) -  Using deep-learning frameworks to identify accounting anomalies.
 * [Financial Statement Anomalies](https://github.com/rameshcalamur/fin-stmt-anom) - Detecting anomalies before filing, using R.
@@ -217,7 +215,7 @@ title: Research
 * [AI Applied to XBRL](https://github.com/Niels-Peter/XBRL-AI) - Standardized representation of XBRL into AI and Machine learning.
  
 <a name="accounting-analytics"></a>
-#### Analytics
+##### Analytics
 
 * [Forensic Accounting](https://github.com/mschermann/forensic_accounting) - Collection of case studies on forensic accounting using data analysis.  On the lookout for more data to practise forensic accounting, *please get in [touch](https://github.com/mschermann/)* 
 * [General Ledger (FirmAI)](http://www.firmai.org/documents/General%20Ledger/) - Data processing over a general ledger as exported through an accounting system.
@@ -226,13 +224,13 @@ title: Research
 * [Automated FS XBRL](https://github.com/CharlesHoffmanCPA/charleshoffmanCPA.github.io) - XML Language, however, possibly port analysis into Python.
 
 <a name="accounting-text"></a>
-#### Textual Analysis
+##### Textual Analysis
 
 * [Financial Sentiment Analysis](https://github.com/EricHe98/Financial-Statements-Text-Analysis) - Sentiment, distance and proportion analysis for trading signals.
 * [Extensive NLP](https://github.com/TiesdeKok/Python_NLP_Tutorial/blob/master/NLP_Notebook.ipynb) - Comprehensive NLP techniques for accounting research.
 
 <a name="accounting-data"></a>
-#### Data, Parsing and APIs
+##### Data, Parsing and APIs
 
 * [EDGAR](https://github.com/TiesdeKok/UW_Python_Camp/blob/master/Materials/Session_5/EDGAR_walkthrough.ipynb) - A walk-through in how to obtain EDGAR data. 
 * [PyEDGAR](https://github.com/gaulinmp/pyedgar) - A library for downloading, caching, and accessing EDGAR filings.
@@ -243,25 +241,25 @@ title: Research
 * [PDF Tabel to Excel](https://github.com/danshorstein/ficpa_article) - How to output an excel file from a PDF.
 
 <a name="accounting-ra"></a>
-#### Research And Articles
+##### Research And Articles
 
 * [Understanding Accounting Analytics](http://social-metrics.org/accountinganalytics/) - An article that tackles the importance of accounting analytics.
 * [VLFeat](http://www.vlfeat.org/) - VLFeat is an open and portable library of computer vision algorithms, which has Matlab toolbox.
 
 <a name="accounting-web"></a>
-#### Websites
+##### Websites
 
 * [Rutgers Raw](http://raw.rutgers.edu/) - Good digital accounting research from Rutgers.
 
 <a name="accounting-course"></a>
-#### Courses
+##### Courses
 
 * [Computer Augmented Accounting](https://www.youtube.com/playlist?list=PLauepKFT6DK8TaNaq_SqZW4LIDJhCkZe2) - A video series from Rutgers University looking at the use of computation to improve accounting.
 * [Accounting in a Digital Era](https://www.youtube.com/playlist?list=PLauepKFT6DK8_Xun584UQPPsg1grYkWw0) - Another series by Rutgers investigating the effects the digital age will have on accounting.
 
 
 <a name="agriculture"></a>
-## Agriculture
+#### Agriculture
 
 <a name="agriculture-econ"></a>
 **Economics**
@@ -285,10 +283,10 @@ title: Research
 
 
 <a name="bankfin"></a>
-## Banking & Insurance
+#### Banking & Insurance
 
 <a name="bankfin-cv"></a>
-#### Consumer Finance
+##### Consumer Finance
 
 - [Loan Acceptance](https://github.com/Paresh3189/Bankruptcy-Prediction-Growth-Modelling) - Classification and time-series analysis for loan acceptance.
 - [Predict Loan Repayment](https://github.com/Featuretools/predict-loan-repayment) - Predict whether a loan will be repaid using automated feature engineering.
@@ -301,7 +299,7 @@ title: Research
 
 
 <a name="bankfin-mo"></a>
-#### Management and Operation
+##### Management and Operation
 
 - [Credit Card](https://github.com/am-aditya/Artificial-Intelligence-for-Banking/blob/master/03_ipy_notebooks/clv_prediction.ipynb) - Estimate the CLV of credit card customers.
 - [Survival Analysis](https://github.com/am-aditya/Artificial-Intelligence-for-Banking/blob/master/01_code/01_02_clv_survival/Survival_Analysis.py) - Perform a survival analysis of customers.
@@ -311,7 +309,7 @@ title: Research
 - [CEO](https://github.com/kaumaron/Data_Science/tree/master/CEO_Compensation) - Analysis of CEO compensation. 
 
 <a name="bankfin-value"></a>
-#### Valuation
+##### Valuation
 
 - [Zillow Prediction](https://github.com/eswar3/Zillow-prediction-models) - Zillow valuation prediction as performed on Kaggle.
 - [Real Estate](https://github.com/denadai2/real-estate-neighborhood-prediction) - Predicting real estate prices from the urban environment.
@@ -319,7 +317,7 @@ title: Research
 
 
 <a name="bankfin-fraud"></a>
-#### Fraud
+##### Fraud
 
 - [XGBoost](https://github.com/KSpiliop/Fraud_Detection) - Fraud Detection by tuning XGBoost hyper-parameters with Simulated Annealing
 - [Fraud Detection Loan in R](https://github.com/longtng/frauddetectionproject/blob/master/A%20Consideration%20Point%20of%20%20Fraud%20Detection%20in%20Bank%20Loans%20Project%20Code.ipynb) - Fraud detection in bank loans.
@@ -327,7 +325,7 @@ title: Research
 - [Credit Card Fraud](https://github.com/am-aditya/Artificial-Intelligence-for-Banking/blob/master/03_ipy_notebooks/fraud_detection.ipynb) - Detecting credit card fraud.
 
 <a name="bankfin-ir"></a>
-#### Insurance and Risk
+##### Insurance and Risk
 
 
 - [Car Damage Detective](https://github.com/neokt/car-damage-detective) - Assessing car damage with convolution neural networks for a personal auto *claims.*
@@ -349,14 +347,14 @@ title: Research
 
 
 <a name="bankfin-ph"></a>
-#### Physical
+##### Physical
 
 * [Bank Note Fraud Detection](https://github.com/apoorv-goel/Bank-Note-Authentication-Using-DNN-Tensorflow-Classifier-and-RandomForest) - Bank Note Authentication Using DNN Tensorflow Classifier and RandomForest.
 * [ATM Surveillance](https://github.com/ShreyaGupta08/InfosysHack) - ATM Surveillance in banks use case.
 
 
 <a name="biotech"></a>
-## Biotechnological & Life Sciences
+#### Biotechnological & Life Sciences
 
 <a name="biotech-general"></a>
 **General**
@@ -417,7 +415,7 @@ title: Research
 
 
 <a name="construction"></a>
-## Construction & Engineering
+#### Construction & Engineering
 
 <a name="construction-con"></a>
 **Construction**
@@ -480,7 +478,7 @@ title: Research
 
 
 <a name="economics"></a>
-## Economics
+#### Economics
 
 <a name="economics-general"></a>
 **General**
@@ -505,7 +503,7 @@ title: Research
 - [Econometric Theory](https://github.com/jstac/econometrics/tree/master/notebooks) - Notebooks of A Primer on Econometric theory. 
 
 <a name="education"></a>
-## Education & Research
+#### Education & Research
 
 <a name="education-student"></a>
 **Student**
@@ -595,7 +593,7 @@ title: Research
 
 
 <a name="finance"></a>
-## Finance
+#### Finance
 
 <a name="finance-trading"></a>
 **Trading and Investment** 
@@ -648,7 +646,7 @@ title: Research
 
 
 <a name="healtcare"></a>
-## Healthcare
+#### Healthcare
 
 <a name="healtcare-general"></a>
 **General**
@@ -662,11 +660,11 @@ title: Research
 
 
 <a name="legal"></a>
-## Justics, Law & Regulations
+#### Justics, Law & Regulations
 
 
 <a name="legal-tools"></a>
-#### Tools
+##### Tools
 - [LexPredict](https://github.com/LexPredict/lexpredict-contraxsuite) - Software package and library.
 - [AI Para-legal](https://github.com/davidawad/lobe) - Lobe is the world's first AI paralegal.
 - [Legal Entity Detection](https://github.com/hockeyjudson/Legal-Entity-Detection/blob/master/Dataset_conv.ipynb) - NER For Legal Documents.
@@ -678,7 +676,7 @@ title: Research
 
 
 <a name="legal-pr"></a>
-#### Policy and Regulatory
+##### Policy and Regulatory
 - [GDPR scores](https://github.com/erickjtorres/AI_LegalDoc_Hackathon) - Predicting GDPR Scores for Legal Documents.
 - [Driving Factors FINRA](https://github.com/siddhantmaharana/text-analysis-on-FINRA-docs) - Identify the driving factors that influence the FINRA arbitration decisions.
 - [Securities Bias Correction](https://github.com/davidsontheath/bias_corrected_estimators/blob/master/bias_corrected_estimators.ipynb) - Bias-Corrected Estimation of Price Impact in Securities Litigation.
@@ -692,7 +690,7 @@ title: Research
 
 
 <a name="legal-judicial"></a>
-#### Judicial Applied
+##### Judicial Applied
 - [Supreme Court Prediction](https://github.com/davidmasse/US-supreme-court-prediction) - Predicting the ideological direction of Supreme Court decisions: ensemble vs. unified case-based model.
 - [Supreme Court Topic Modeling](https://github.com/AccelAI/AI-Law-Minicourse/tree/master/Supreme_Court_Topic_Modeling) - Multiple steps necessary to implement topic modeling on supreme court decisions.
 - [Judge Opinion](https://github.com/GirrajMaheshwari/Legal-Analytics-project---Court-misclassification) - Using text mining and machine learning to analyze judges’ opinions for a particular concern.
@@ -703,7 +701,7 @@ title: Research
 
 
 <a name="manufacturing"></a>
-## Manufacturing
+#### Manufacturing
 
 <a name="manufacturing-general"></a>
 **General**
@@ -738,7 +736,7 @@ title: Research
 
 
 <a name="media"></a>
-## Media & Publishing
+#### Media & Publishing
 
 <a name="media-marketing"></a>
 **Marketing**
@@ -752,7 +750,7 @@ title: Research
 
 
 <a name="miscellaneous"></a>
-## Miscellaneous
+#### Miscellaneous
 
 <a name="miscellaneous-art"></a>
 **Art**
@@ -768,7 +766,7 @@ title: Research
 
 
 <a name="physics"></a>
-## Physics
+#### Physics
 
 
 <a name="physics-general"></a>
@@ -795,10 +793,10 @@ title: Research
 
 
 <a name="public"></a>
-## Government and Public Works
+#### Government and Public Works
 
 <a name="public-social"></a>
-#### Social Policies
+##### Social Policies
 - [Triage](https://github.com/dssg/triage) - General Purpose Risk Modeling and Prediction Toolkit for Policy and Social Good Problems.
 - [World Bank Poverty I](https://github.com/worldbank/ML-classification-algorithms-poverty/tree/master/notebooks) - A comparative assessment of machine learning classification algorithms applied to poverty prediction.
 - [World Bank Poverty II](https://github.com/avsolatorio/world-bank-pover-t-tests-solution) - Repository for the World Bank Pover-t Test Competition Solution Overseas Company Land Ownership .
@@ -831,7 +829,7 @@ title: Research
 - [Charity Effectiveness](https://github.com/LauraChen/02-Metis-Web-Scraping) -  Scraping online data about *charities* to understand effectiveness
 
 <a name="public-election"></a>
-#### Election Analysis
+##### Election Analysis
 - [Election Analysis](https://github.com/1jinwoo/DeepWave/blob/master/DR_Random_Forest.ipynb) - Election Analysis and Prediction Models
 - [American Election Causal](https://github.com/Akesari12/LS123_Data_Prediction_Law_Spring-2019/blob/master/labs/OLS%20for%20Causal%20Inference/OLS_Causal_Inference_solution.ipynb) - Using ANES data with causal inference models.
 - [Campaign Finance and Election Results](https://github.com/sfbrigade/datasci-campaign-finance/blob/master/notebooks/ML%20Campaign%20Finance%20and%20Election%20Results%20Example.ipynb) - Investigating the relation between campaign finance and subsequent election results.
@@ -859,7 +857,7 @@ title: Research
 
 
 <a name="realestate"></a>
-## Real Estate, Rental & Leasing
+#### Real Estate, Rental & Leasing
 
 <a name="realestate-real"></a>
 **Real Estate**
@@ -884,7 +882,7 @@ title: Research
 
 
 <a name="utilities"></a>
-## Utilities
+#### Utilities
 
 <a name="utilities-elec"></a>
 **Electricity**
@@ -952,7 +950,7 @@ title: Research
 
 
 <a name="wholesale"></a>
-## Wholesale & Retail
+#### Wholesale & Retail
 
 <a name="wholesale-whole"></a>
 **Wholesale**
