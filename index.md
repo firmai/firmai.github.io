@@ -7,6 +7,8 @@ notoc: true
 notags: true
 ---
 
+<meta name="google-site-verification" content="HF11VEUmFPbMvMJD6-awjVn2lKfv3VPoBtrFykGJUvE" />
+
 {% assign page.title = site.name %}
 
 <div class="row"><div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block"><h2 id="get-started-with-firmai">Get started with FirmAI</h2><p>Walk through a few different prediction problems to see what is possible for your firm. This section includes information on time series, classification and regression tasks. Click below to walk through the different prediction steps.</p><p><a class="button outline-btn" href="/get-started/">Get started with FirmAI</a></p></div><div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block"><h2 id="firmai-solutions">FirmAI Solutions</h2><p>Get in contact to discuss the possibility of creating custom solutions for your nonprofit. Tasks include dashboard design, process automation, causal discovery, prediction and decision optimisation. Click below to view a few of the examples and potential use cases.</p><p><a class="button outline-btn" href="samples#playground-prediction-analysis">Example Solutions</a></p></div></div>
