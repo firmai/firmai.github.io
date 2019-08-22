@@ -6,7 +6,7 @@ The reporting solutions are segmented according to the different type of softwar
 
 ## Open Source - Customisable
 
-[**Dash Plotly:**](https://plot.ly/products/dash/) 
+### [**Dash Plotly:**](https://plot.ly/products/dash/) 
 
 <br>
 [Morningstar Stock Explorer](https://plot.ly/dash/gallery/stock-tickers/)
@@ -40,7 +40,7 @@ The reporting solutions are segmented according to the different type of softwar
 ## Open Source - Turnkey
 <br>
 
-[**Grafana:**](https://github.com/grafana/grafana)
+### [**Grafana:**](https://github.com/grafana/grafana)
 
 <br>
 [Play Example](http://play.grafana.org/d/000000012/grafana-play-home?orgId=1)
@@ -56,7 +56,7 @@ The reporting solutions are segmented according to the different type of softwar
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_A48D2E03CF7FB9961DB5D54AF758CE7D37C96FFE418DB4561504EC70129BF30E_1530732511913_file.png)
 
 <br><br>
-[**Keen IO:**](https://keen.github.io/dashboards/)
+### [**Keen IO:**](https://keen.github.io/dashboards/)
 
 <br>
 [Marketing](https://keen.github.io/dashboards/examples/starter-kit/)
@@ -73,7 +73,7 @@ The reporting solutions are segmented according to the different type of softwar
 
 <br><br>
 
-[**Redash:**](https://github.com/getredash/redash)
+### [**Redash:**](https://github.com/getredash/redash)
 <br>
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_A48D2E03CF7FB9961DB5D54AF758CE7D37C96FFE418DB4561504EC70129BF30E_1530733162975_file.png)
@@ -85,7 +85,7 @@ The reporting solutions are segmented according to the different type of softwar
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_A48D2E03CF7FB9961DB5D54AF758CE7D37C96FFE418DB4561504EC70129BF30E_1530733210645_file.png)
 
 <br><br>
-[**Mozaik:**](http://mozaik.rocks/)
+### [**Mozaik:**](http://mozaik.rocks/)
 
 <br>
 [Github](http://mozaik.herokuapp.com/)
@@ -96,7 +96,7 @@ The reporting solutions are segmented according to the different type of softwar
 
 ## Paid Solutions
 <br>
-[**Tableau Public:**](https://www.tableau.com/)
+### [**Tableau Public:**](https://www.tableau.com/)
 
 <br>
 [Income Statement](https://public.tableau.com/views/IncomeStatement_4/IncomeStatement?:embed=y&:display_count=yes&publish=yes&:showVizHome=no)
@@ -113,7 +113,7 @@ The reporting solutions are segmented according to the different type of softwar
 
 
 <br><br>
-[**Microsoft Power BI:**](https://powerbi.microsoft.com/en-us/)
+### [**Microsoft Power BI:**](https://powerbi.microsoft.com/en-us/)
 <br><br>
 
 [Sales Report](http://community.powerbi.com/t5/Data-Stories-Gallery/Business-Sales-Report-PowerBI/m-p/60491)
