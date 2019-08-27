@@ -4,4 +4,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://firmai.com/sitemap.xml
+# Sitemap: https://firmai.com/sitemap.xml
