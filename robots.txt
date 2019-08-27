@@ -1,4 +1,3 @@
 User-agent: *
 Disallow:
-
 https://www.firmai.org/sitemap_index.xml
