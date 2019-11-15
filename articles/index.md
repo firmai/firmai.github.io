@@ -5,6 +5,8 @@ title: Research Projects
 {% assign labsbase = "https://github.com/docker/labs/tree/master" %}
 
 
+FirmAI has developed the world’s first open source intelligent report with 1,500 Users. It is also the leading catalogue for industry applications in machine learning with 120,000 GitHub Views with an average of 300 views per day. FirmAI has developed the largest code base for machine learning in asset management that already has over 3000 Downloads from SSRN. Other projects include the development of more than ten social and public media scripts to access publicly available data. Currently firmAI is working on building the largest code base for machine learning in business. Part of this process includes the development of another open source project to develop the first ever Google Colab aggregation engine. 
+
 
 ## Articles:
 
