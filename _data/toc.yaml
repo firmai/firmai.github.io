@@ -9,8 +9,8 @@ horizontalnav:
   path: /reporting/
   node: reporting
   
-  - title: Colab
-  path: https://www.google-colab.com/
+- title: Colab
+  path: https://www.google-colab.com
   node: colab
   
 - title: Python
