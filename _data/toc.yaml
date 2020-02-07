@@ -5,9 +5,9 @@ horizontalnav:
 #- title: Prediction
 #  path: /get-started/
 #  node: prediction
-- title: Reporting
-  path: /reporting/
-  node: reporting
+#- title: Reporting
+#  path: /reporting/
+#  node: reporting
   
 - title: Colab
   path: https://www.google-colab.com
@@ -19,15 +19,15 @@ horizontalnav:
 #- title: Decision Making
 #  path: /decision-making/
 #  node: decision
-- title: 4D
-  path: /4D-Report/
-  node: experimental
+#- title: 4D
+#  path: /4D-Report/
+#  node: experimental
 - title: Samples
   path: /samples/
   node: samples
-- title: Vendors
-  path: https://docs.google.com/spreadsheets/d/e/2PACX-1vTuItxrnKiv8vGtWXYUP03KH8ChWLHYPorgrBrgA9bLFNhTqVuBINRStq4t-mal9frhd7i6DGc3Jr45/pubhtml#
-  node: vendors
+#- title: Vendors
+#  path: https://docs.google.com/spreadsheets/d/e/2PACX-1vTuItxrnKiv8vGtWXYUP03KH8ChWLHYPorgrBrgA9bLFNhTqVuBINRStq4t-mal9frhd7i6DGc3Jr45/pubhtml#
+#  node: vendors
 
 - title: Research
   path: /articles/
