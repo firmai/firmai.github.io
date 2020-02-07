@@ -39,6 +39,11 @@ horizontalnav:
 - title: LinkedIn
   path: https://www.linkedin.com/company/18004273/admin/
   node: linkedin
+- title: Reddit
+  path: https://www.reddit.com/r/datascienceproject/
+  node: Reddit 
+  
+  
 
 
   
