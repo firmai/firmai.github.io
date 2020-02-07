@@ -28,4 +28,4 @@ At FirmAI we are well aware that data availability is the most pressing concern 
 
 ##### Technology
 
-We pride ourselves in using a wide range of technologies to solve and automate the most complex and pressing business problems.
+FirmAI contributors and authors pride themselves in using a wide range of technologies to solve and automate the most complex and pressing business problems.
