@@ -12,7 +12,12 @@ horizontalnav:
 - title: Colab
   path: https://www.google-colab.com
   node: colab
-  
+- title: GitHub
+  path: https://github.com/firmai/industry-machine-learning
+  node: github
+- title: Medium
+  path: https://medium.com/firmai
+  node: medium
 - title: Python
   path: /python-business-analytics/
   node: python
@@ -32,9 +37,7 @@ horizontalnav:
 - title: Research
   path: /articles/
   node: articles
-- title: GitHub
-  path: https://github.com/firmai/industry-machine-learning
-  node: github
+
   target: _blank
 - title: LinkedIn
   path: https://www.linkedin.com/company/18004273/admin/
