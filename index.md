@@ -1,8 +1,8 @@
 ---
-description: Home page for FirmAI's documentation
-keywords: FirmAI, documentation, manual, guide, reference, samples
+description: Home page for FirmAI Open Science
+keywords: FirmAI, Business, Analytics, AI, Data Science, Research
 landing: true
-title: FirmAI Documentation
+title: FirmAI Open Business Science
 notoc: true
 notags: true
 ---
