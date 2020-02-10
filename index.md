@@ -2,7 +2,7 @@
 description: Home page for FirmAI Open Science
 keywords: FirmAI, Business, Analytics, AI, Data Science, Research
 landing: true
-title: FirmAI Open Business Science
+title: Open Source Research for Business
 notoc: true
 notags: true
 ---
