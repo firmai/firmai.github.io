@@ -14,6 +14,7 @@ description: Deploy your app to production using Docker CE or EE.
 | Etsy's [Skyline](https://github.com/etsy/skyline)                        | Python |Skyline is a real-time anomaly detection system, built to enable passive monitoring of hundreds of thousands of metrics   
 | Linkedin's [luminol](https://github.com/linkedin/luminol)                | Python |Luminol is a light weight python library for time series data analysis. The two major functionalities it supports are anomaly detection and correlation. It can be used to investigate possible causes of anomaly.      
 | Ele.me's [banshee](https://github.com/eleme/banshee)                     | Mentat's [datastream.io](https://github.com/MentatInnovations/datastream.io)| Python |An open-source framework for real-time anomaly detection using Python, Elasticsearch and Kibana.
+| [MIDAS](https://github.com/bhatiasiddharth/MIDAS/) | C++/Python/Golang/Ruby/Rust/R | MIDAS detects anomalies in dynamic graphs in real-time
 
 ## Related Software
 
